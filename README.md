@@ -1,6 +1,6 @@
 # 翻译和发布规范
 
-## Usage
+## 构建发布
 
 你需要安装有基本的开发环境。如下：
 
@@ -55,3 +55,11 @@ npm run build
 ```shell
 pnpm build
 ```
+
+## 增删内容
+
+站点页面全部基于 [Markdown](https://www.markdown.xyz/basic-syntax/) 语言编写，你可以在 `docs` 文件夹中找到它们。一般情况下只要知道这个就足够了。
+
+部分页面混合了 [Vue3](https://cn.vuejs.org/guide/quick-start.html) 组件。一般情况下，编辑人不需要对具体的组件内容修改，只需要~~复制粘贴~~修改内容即可。
+
+对于更详细的内容，可以参照 [VitePress 文档](https://vitepress.vuejs.org/)。
