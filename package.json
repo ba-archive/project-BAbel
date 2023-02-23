@@ -23,7 +23,7 @@
     "@typescript-eslint/parser": "5.52.0",
     "eslint-config-prettier": "8.6.0",
     "@vue/eslint-config-typescript": "11.0.2",
-    "@vuepress/plugin-active-header-links": "2.0.0-beta.60",
+    "@vuepress/plugin-active-header-links": "2.0.0-beta.50-pre.1",
     "eslint": "8.34.0",
     "eslint-plugin-vue": "9.9.0",
     "prettier": "2.8.4",
