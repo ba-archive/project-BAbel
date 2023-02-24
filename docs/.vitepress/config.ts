@@ -1,77 +1,14 @@
-import { defineConfig } from 'vitepress';
-import { algoliaConfig } from './secrets';
+import { DefaultTheme, defineConfig } from 'vitepress';
+import { algoliaConfig } from '../../config/secrets';
+import { navItems } from '../../config/menu';
 
-function getMenuItems(shouldIncludeHome = false) {
-  const navItems = [
-    {
-      text: '翻译规范',
-      items: [
-        {
-          text: '人名、地名翻译规范',
-          link: '/guidelines/translation/character-names-and-locations',
-        },
-        {
-          text: '游戏内专有名词翻译规范',
-          link: '/guidelines/translation/ingame-terms',
-        },
-      ],
-    },
-    {
-      text: '发布规范',
-      items: [
-        {
-          text: 'PV技能标准模板',
-          link: '/guidelines/publication/pv-skills',
-        },
-      ],
-    },
-    {
-      text: '已有名词表',
-      items: [
-        {
-          text: '人物姓名、武器及技能翻译一览',
-          link: '/terms/characters',
-        },
-        {
-          text: '往期活动、卡池翻译一览',
-          link: '/terms/events-and-gacha',
-        },
-        {
-          text: '地名、学校名及社团名一览',
-          link: '/terms/places-and-circles',
-        },
-        {
-          text: '游戏内其他名词一览',
-          link: '/terms/others',
-        },
-      ],
-    },
-    {
-      text: '词典',
-      items: [
-        {
-          text: '常见错翻一览',
-          link: '/dict/common-mistakes',
-        },
-        {
-          text: '拟声词、拟态词一览',
-          link: '/dict/onomatopoeia',
-        },
-      ],
-    },
-  ];
-
-  const menuItems = [];
-
-  if (shouldIncludeHome) {
-    menuItems.push({
-      text: 'Home',
-      link: '/',
-    });
-  }
-  menuItems.push(...navItems);
-
-  return menuItems;
+function getMenuItems(
+  itemType: 'navbar' | 'sidebar' = 'navbar'
+): DefaultTheme.NavItem[] | DefaultTheme.Sidebar {
+  return navItems.filter(
+    item =>
+      item.meta[`shouldShowIn${itemType[0].toUpperCase()}${itemType.slice(1)}`]
+  );
 }
 export default defineConfig({
   lang: 'en-US',
@@ -92,9 +29,9 @@ export default defineConfig({
   },
 
   themeConfig: {
-    nav: getMenuItems(true),
+    nav: getMenuItems('navbar') as DefaultTheme.NavItem[],
 
-    sidebar: getMenuItems(),
+    sidebar: getMenuItems('sidebar') as DefaultTheme.Sidebar,
 
     algolia: algoliaConfig,
   },
