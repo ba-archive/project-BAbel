@@ -1,5 +1,12 @@
 <script setup lang="ts">
 // noinspection TypeScriptUnresolvedFunction
+import { PropType } from 'vue';
+
+interface ConnectionItem {
+  nameCn: string;
+  nameJp: string;
+}
+
 defineProps({
   familyNameJp: { type: String, default: '' },
   familyNameRuby: { type: String, default: '' },
@@ -18,6 +25,11 @@ defineProps({
   uniqueWeaponCn: { type: String, default: '专武译文' },
   uniqueItemJp: { type: String, required: false, default: '' },
   uniqueItemCn: { type: String, required: false, default: '爱用品译文' },
+  connection: {
+    type: Array as PropType<ConnectionItem[]>,
+    required: false,
+    default: [] as ConnectionItem[],
+  },
 });
 </script>
 
@@ -84,6 +96,18 @@ defineProps({
       <td>{{ uniqueItemJp }}</td>
       <td colspan="2">{{ uniqueItemCn ? uniqueItemCn : '爱用品译文' }}</td>
     </tr>
+    <tr v-if="connection.length > 0">
+      <th colspan="4">关联名词</th>
+    </tr>
+    <tr v-if="connection.length > 0">
+      <td colspan="4" class="connections">
+        <!-- eslint-disable vue/require-v-for-key -->
+        <span v-for="item in connection" v-once>
+          <a :href="`/terms/others#${item.nameJp}`">{{ item.nameCn }}</a>
+        </span>
+        <!-- eslint-enable vue/require-v-for-key -->
+      </td>
+    </tr>
   </table>
 </template>
 
@@ -105,5 +129,9 @@ img.avatar {
 
 .vp-doc tr:nth-child(2n) {
   background-color: unset;
+}
+
+.connections > span:not(:last-child)::after {
+  content: ', ';
 }
 </style>

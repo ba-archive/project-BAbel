@@ -1464,6 +1464,7 @@ import CharacterTable from '../components/CharacterTable.vue'
   unique-weapon-cn="专武译文"
   unique-item-jp=""
   unique-item-cn=""
+  :connection="[{nameJp: 'アビ・エシュフ', nameCn: 'Abi-Eshuh'}, {nameJp: 'アビ・エシュフ', nameCn: '测试内容'}, {nameJp: 'アビ・エシュフ', nameCn: '测试内容'}, {nameJp: 'アビ・エシュフ', nameCn: '测试内容'}]"
 />
 
 ## 百鬼夜行
