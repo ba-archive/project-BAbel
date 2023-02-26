@@ -98,7 +98,7 @@ export const navItems: NavItemWithMeta[] = [
         link: 'https://wantwords.net/',
       },
       {
-        text: '翻译生成模板',
+        text: '模板烤推机',
         link: '/tools/generate-from-template',
       },
     ],
