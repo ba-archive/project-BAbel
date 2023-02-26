@@ -1,4 +1,4 @@
-import { NavItemWithMeta } from '../types/NavItems';
+import { NavItemWithMeta } from '../docs/types/NavItems';
 
 export const navItems: NavItemWithMeta[] = [
   {

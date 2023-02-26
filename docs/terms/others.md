@@ -1,15 +1,20 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
+import { transformVoicedOrSemiVoiced } from "../utils/CJKService";
 
 onMounted(() => {
   const hash = decodeURIComponent(window.location.hash).slice(1);
   if (hash) {
     const elements = document.querySelectorAll("h2, h3, h4, h5, h6");
-    const elementList = Array.from(elements).filter((element) => {
+    const elementList = Array.from(elements).filter(element => {
       return element.id;
     });
+    if (0 === elementList.length) {
+      return;
+    }
+    const transformedHash = transformVoicedOrSemiVoiced(hash);
     for (const element of elementList) {
-      if (element.id.length - hash.length <= 1 && element.id.includes(hash)) {
+      if (element.id === transformedHash) {
         element.scrollIntoView({ block: "center", behavior: "smooth" });
         break;
       }
