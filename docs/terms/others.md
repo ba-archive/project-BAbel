@@ -22,8 +22,8 @@ onMounted(() => {
 
 ### かまぼこ突風伝
 
-鱼板疾风传。 [满](characters#千鸟-满)喜爱的小说。
+鱼板疾风传。 [千鸟满](characters#千鸟-满)喜爱的小说。
 
 ### アビ・エシュフ
 
-Abi-Eshuh。[时](characters#飞鸟马-时)使用的武装机甲名称。
+Abi-Eshuh。[飞鸟马时](characters#飞鸟马-时)使用的武装机甲名称。

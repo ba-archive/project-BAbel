@@ -39,8 +39,9 @@ defineProps({
       <!-- eslint-disable no-irregular-whitespace -->
       <th class="table-title" colspan="4">
         <ruby
-          >{{ familyNameJp }}<rt>{{ familyNameRuby }}</rt></ruby
-        >
+          >{{ familyNameJp }}
+          <rt>{{ familyNameRuby }}</rt>
+        </ruby>
         {{ familyNameJp.length > 0 ? '　' : '' }}{{ givenNameJp }}
       </th>
       <!-- eslint-enable no-irregular-whitespace -->
