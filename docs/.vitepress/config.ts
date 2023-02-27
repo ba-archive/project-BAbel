@@ -11,6 +11,7 @@ function getMenuItems(
       item.meta[`shouldShowIn${itemType[0].toUpperCase()}${itemType.slice(1)}`]
   );
 }
+
 export default withPwa(
   defineConfig({
     lang: 'en-US',
@@ -38,6 +39,19 @@ export default withPwa(
       algolia: algoliaConfig,
     },
 
-    pwa: {},
+    pwa: {
+      selfDestroying: true,
+      // workbox: {
+      //   runtimeCaching: [
+      //     {
+      //       urlPattern: /(.*?)\.(js|css|json|md)$/i,
+      //       handler: 'StaleWhileRevalidate',
+      //       options: {
+      //         cacheName: 'asset-cache',
+      //       },
+      //     },
+      //   ],
+      // },
+    },
   })
 );
