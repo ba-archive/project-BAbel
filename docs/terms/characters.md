@@ -1,3 +1,4 @@
+<!--suppress ES6UnusedImports -->
 <script setup lang="ts">
 import CharacterTable from '../components/CharacterTable.vue';
 import { onMounted } from "vue";
@@ -18,8 +19,10 @@ onMounted(() => {
 
 # 人物姓名、武器及技能翻译一览表
 
+## 目录
+
 <details>
-<summary>目录…</summary>
+<summary>点击展开…</summary>
 
 [[toc]]
 
