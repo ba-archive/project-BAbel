@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { onBeforeMount, onMounted, ref } from 'vue';
-import { useRouter } from 'vitepress';
 
 const offlineReady = ref(false);
 const onOfflineReady = () => {
@@ -22,31 +21,6 @@ onBeforeMount(async () => {
       console.error('Service Worker registration error!', e);
     },
   });
-});
-
-onMounted(() => {
-  const router = useRouter();
-  const currentRoute = router.route.path;
-
-  // handle 'Hydration completed but contains mismatches.' manually
-  if ('/' !== currentRoute) {
-    const VPContentElement: HTMLElement | null = document.querySelector(
-      '.VPContent, .is-home'
-    );
-    const VPNavBarElement: HTMLElement | null =
-      document.querySelector('.VPNavBar');
-    if (VPContentElement) {
-      VPContentElement.style.display = 'none';
-    }
-    if (VPNavBarElement) {
-      if (
-        1 === VPNavBarElement.classList.length &&
-        'VPNavBar' === VPNavBarElement.classList[0]
-      ) {
-        VPNavBarElement.classList.add('has-sidebar', 'fill');
-      }
-    }
-  }
 });
 </script>
 

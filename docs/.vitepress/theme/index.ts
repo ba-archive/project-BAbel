@@ -9,6 +9,7 @@ export default {
   ...Theme,
   Layout() {
     try {
+      // @ts-ignore
       if ('development' === import.meta.env.MODE) {
         return h(Theme.Layout);
       }
