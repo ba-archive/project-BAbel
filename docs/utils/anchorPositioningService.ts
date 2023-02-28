@@ -9,7 +9,8 @@ function isInViewport(el: HTMLElement) {
   );
 }
 
-function scrollElementIntoView(element: HTMLElement) {
+function scrollElementIntoView(element: HTMLElement, immediate = true) {
+  const offsetTime = immediate ? 0 : 500;
   setTimeout(() => {
     if (!isInViewport(element)) {
       const top = element.offsetTop;
@@ -18,7 +19,7 @@ function scrollElementIntoView(element: HTMLElement) {
         top: top,
       });
     }
-  }, 500);
+  }, offsetTime);
 }
 
 export { scrollElementIntoView, isInViewport };
