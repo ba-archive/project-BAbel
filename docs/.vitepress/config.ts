@@ -1,5 +1,4 @@
 import { DefaultTheme, defineConfig } from 'vitepress';
-import { algoliaConfig } from '../../config/secrets';
 import { navItems } from '../../config/menu';
 import { withPwa } from '@vite-pwa/vitepress';
 
@@ -22,8 +21,6 @@ export default withPwa(
     cleanUrls: true,
 
     head: [['meta', { name: 'theme-color', content: '#3f88f2' }]],
-    // @ts-ignore
-    plugins: ['@vuepress/active-header-links'],
 
     markdown: {
       headers: {
@@ -33,10 +30,7 @@ export default withPwa(
 
     themeConfig: {
       nav: getMenuItems('navbar') as DefaultTheme.NavItem[],
-
       sidebar: getMenuItems('sidebar') as DefaultTheme.Sidebar,
-
-      algolia: algoliaConfig,
     },
 
     pwa: {

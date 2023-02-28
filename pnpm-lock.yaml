@@ -14,6 +14,8 @@ specifiers:
   eslint: 8.34.0
   eslint-config-prettier: 8.6.0
   eslint-plugin-vue: 9.9.0
+  flexsearch: 0.7.31
+  markdown-it: 13.0.1
   prettier: 2.8.4
   sass: 1.58.3
   typescript: 4.9.5
@@ -23,6 +25,7 @@ specifiers:
   vite: 4.1.4
   vite-plugin-pwa: 0.14.0
   vitepress: 1.0.0-alpha.46
+  vitepress-plugin-search: 1.0.4-alpha.19
   vue: 3.2.47
   vue-tsc: 1.1.7
   workbox-window: 6.5.4
@@ -45,6 +48,8 @@ devDependencies:
   eslint: 8.34.0
   eslint-config-prettier: 8.6.0_eslint@8.34.0
   eslint-plugin-vue: 9.9.0_eslint@8.34.0
+  flexsearch: 0.7.31
+  markdown-it: 13.0.1
   prettier: 2.8.4
   sass: 1.58.3
   typescript: 4.9.5
@@ -52,6 +57,7 @@ devDependencies:
   unplugin-icons: 0.15.3
   unplugin-vue-components: 0.24.0_vue@3.2.47
   vitepress: 1.0.0-alpha.46_mq2yidvv33ga2lshvrisjmzale
+  vitepress-plugin-search: 1.0.4-alpha.19_izgnxokfetdl4ncj36u4rk6qgu
   vue: 3.2.47
   vue-tsc: 1.1.7_typescript@4.9.5
   workbox-window: 6.5.4
@@ -1840,6 +1846,10 @@ packages:
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
 
+  /@types/flexsearch/0.7.3:
+    resolution: {integrity: sha512-HXwADeHEP4exXkCIwy2n1+i0f1ilP1ETQOH5KDOugjkTFZPntWo0Gr8stZOaebkxsdx+k0X/K6obU/+it07ocg==}
+    dev: true
+
   /@types/fs-extra/9.0.13:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
@@ -3185,6 +3195,10 @@ packages:
 
   /flatted/3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
+    dev: true
+
+  /flexsearch/0.7.31:
+    resolution: {integrity: sha512-XGozTsMPYkm+6b5QL3Z9wQcJjNYxp0CYn3U1gO7dwD6PAqU1SVWZxI9CCg3z+ml3YfqdPnrBehaBrnH2AGKbNA==}
     dev: true
 
   /follow-redirects/1.15.2:
@@ -4983,6 +4997,22 @@ packages:
       sass: 1.58.3
     optionalDependencies:
       fsevents: 2.3.2
+
+  /vitepress-plugin-search/1.0.4-alpha.19_izgnxokfetdl4ncj36u4rk6qgu:
+    resolution: {integrity: sha512-WFOPn5dStyMINd+rVjNxbEmGa7U+qGHLxLnda56EG+ATil1i0yOauGhJEh5LPMvuCUVIA9tInJnFXklOBb39dA==}
+    engines: {node: ^14.13.1 || ^16.7.0 || >=18}
+    peerDependencies:
+      flexsearch: ^0.7.31
+      vitepress: ^1.0.0-alpha.13
+      vue: '3'
+    dependencies:
+      '@types/flexsearch': 0.7.3
+      '@types/markdown-it': 12.2.3
+      flexsearch: 0.7.31
+      markdown-it: 13.0.1
+      vitepress: 1.0.0-alpha.46_mq2yidvv33ga2lshvrisjmzale
+      vue: 3.2.47
+    dev: true
 
   /vitepress/1.0.0-alpha.46_mq2yidvv33ga2lshvrisjmzale:
     resolution: {integrity: sha512-HiKiHzC0iTPsRsKs8XcsMeMzCpcCt5LWcX9mpDr288Ju+nQf1G8A2+Wm44ZkBsVv4EHxFK4ChmWyZrL1OJUXpg==}
