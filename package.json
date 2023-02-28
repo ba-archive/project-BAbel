@@ -10,7 +10,7 @@
     "build": "vitepress build docs",
     "preview": "vitepress build docs && vitepress preview docs",
     "index:algolia": "docker run -it --env-file=config/.env -e 'CONFIG=$(cat config/algolia-config.json | jq -r tostring)' algolia/docsearch-scraper",
-    "format": "prettier --config .prettierrc.json -uw ./docs/",
+    "format": "prettier --config .prettierrc.json -uw ./docs/components",
     "check": "vue-tsc --noEmit; eslint --config ./.eslintrc.json ./docs/ --ext .js,.ts,.vue"
   },
   "keywords": [],

@@ -2,11 +2,6 @@
 // noinspection TypeScriptUnresolvedFunction
 import { PropType } from 'vue';
 
-interface ConnectionItem {
-  nameCn: string;
-  nameJp: string;
-}
-
 defineProps({
   familyNameJp: { type: String, default: '' },
   familyNameRuby: { type: String, default: '' },
@@ -25,12 +20,25 @@ defineProps({
   uniqueWeaponCn: { type: String, default: '专武译文' },
   uniqueItemJp: { type: String, required: false, default: '' },
   uniqueItemCn: { type: String, required: false, default: '爱用品译文' },
+  circle: { type: String, required: false, default: '' },
   connection: {
-    type: Array as PropType<ConnectionItem[]>,
+    type: Array as PropType<string[]>,
     required: false,
-    default: [] as ConnectionItem[],
+    default: [] as string[],
   },
 });
+
+function normalizeCircleURI(circle: string): string {
+  return (
+    '/terms/places-and-circles#' +
+    circle
+      .replaceAll(
+        /[\s\uff20-\uff7e\uff00-\uffef\u3000-\u303f\ufe30-\ufe4f\u0021-\u002F\u003a-\u003f]/g,
+        '-'
+      )
+      .toLowerCase()
+  );
+}
 </script>
 
 <template>
@@ -81,6 +89,12 @@ defineProps({
       <td>{{ subSkillJp }}</td>
       <td>{{ subSkillCn }}</td>
     </tr>
+    <tr v-if="circle.length > 0">
+      <th>社团</th>
+      <td colspan="2">
+        <a :href="normalizeCircleURI(circle)">{{ circle }}</a>
+      </td>
+    </tr>
     <tr>
       <th>专武原文</th>
       <th colspan="2">专武译文</th>
@@ -104,7 +118,7 @@ defineProps({
       <td colspan="4" class="connections">
         <!-- eslint-disable vue/require-v-for-key -->
         <span v-for="item in connection" v-once>
-          <a :href="`/terms/others#${item.nameJp}`">{{ item.nameCn }}</a>
+          <a :href="`/terms/others#${item}`">{{ item }}</a>
         </span>
         <!-- eslint-enable vue/require-v-for-key -->
       </td>

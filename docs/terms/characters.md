@@ -47,6 +47,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="WHITE FANG 465"
   unique-weapon-cn="WHITE FANG 465"
+  circle="对策委员会"
   unique-item-jp="シロコのドローン"
   unique-item-cn=""
 />
@@ -68,6 +69,7 @@ onMounted(() => {
   sub-skill-cn="镇压老手"
   unique-weapon-jp="Eye of Horus"
   unique-weapon-cn="Eye of Horus"
+  circle="对策委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -89,6 +91,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="Little machinegun 5"
   unique-weapon-cn="Little machinegun 5"
+  circle="对策委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -110,6 +113,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="シンシアリティ"
   unique-weapon-cn="专武译文"
+  circle="对策委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -131,6 +135,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="コモンセンス"
   unique-weapon-cn="专武译文"
+  circle="对策委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -144,6 +149,7 @@ onMounted(() => {
   family-name-ruby="ゆりぞの"
   given-name-jp="セイア"
   image-name=""
+  circle="茶会"
 />
 
 ### 桐藤　渚
@@ -163,6 +169,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ロイヤルブレンド"
   unique-weapon-cn="专武译文"
+  circle="茶会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -184,6 +191,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="Quis ut Deus"
   unique-weapon-cn="专武译文"
+  circle="茶会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -205,6 +213,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ブラッド&ガンパウダー"
   unique-weapon-cn="专武译文"
+  circle="正义实现委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -226,6 +235,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="インペイルメント"
   unique-weapon-cn="专武译文"
+  circle="正义实现委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -247,6 +257,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="正義の顕現"
   unique-weapon-cn="专武译文"
+  circle="正义实现委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -256,6 +267,7 @@ onMounted(() => {
 <CharacterTable
   given-name-jp="イチカ"
   image-name=""
+  circle="正义实现委员会"
 />
 
 ### 阿慈谷　日富美
@@ -275,6 +287,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="マイ・ネセシティ"
   unique-weapon-cn="专武译文"
+  circle="补习部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -294,8 +307,9 @@ onMounted(() => {
   passive-skill-cn="被动技能译文"
   sub-skill-jp="弱点を狙う"
   sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="コモンセンス"
-  unique-weapon-cn="Et Omnia Vanitas"
+  unique-weapon-jp="Et Omnia Vanitas"
+  unique-weapon-cn="专武译文"
+  circle="补习部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -317,6 +331,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="オネストウィッシュ"
   unique-weapon-cn="专武译文"
+  circle="补习部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -338,6 +353,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ジャスティス・ブラック"
   unique-weapon-cn="专武译文"
+  circle="补习部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -359,6 +375,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="爽やかチョコミント"
   unique-weapon-cn="专武译文"
+  circle="放课后甜点部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -380,6 +397,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="スイーツドライバー"
   unique-weapon-cn="专武译文"
+  circle="放课后甜点部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -401,6 +419,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ビヨンド・ザ・ルミネーション"
   unique-weapon-cn="专武译文"
+  circle="放课后甜点部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -422,6 +441,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="マビノギオン"
   unique-weapon-cn="专武译文"
+  circle="放课后甜点部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -443,6 +463,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ボリュームサプレッサー"
   unique-weapon-cn="专武译文"
+  circle="图书委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -464,6 +485,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ライブラリールーラー"
   unique-weapon-cn="专武译文"
+  circle="图书委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -485,6 +507,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="救護の証明"
   unique-weapon-cn="专武译文"
+  circle="救护骑士团"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -506,6 +529,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ハッピースマイリー"
   unique-weapon-cn="专武译文"
+  circle="救护骑士团"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -527,6 +551,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="救護の証明"
   unique-weapon-cn="专武译文"
+  circle="救护骑士团"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -548,6 +573,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="浄化の織り手"
   unique-weapon-cn="专武译文"
+  circle="修女会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -569,6 +595,9 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="パイエティー"
   unique-weapon-cn="专武译文"
+  circle="修女会"
+  unique-item-jp=""
+  unique-item-cn=""
 />
 
 ### 若叶　日向
@@ -588,6 +617,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ブレッシング"
   unique-weapon-cn="专武译文"
+  circle="修女会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -609,6 +639,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="セーフティー"
   unique-weapon-cn="专武译文"
+  circle="圣三一自卫队"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -618,10 +649,31 @@ onMounted(() => {
 <CharacterTable
   family-name-jp="宇沢"
   family-name-ruby="うざわ"
-  given-name-jp="レイサ"
+  given-name-jp="レイサ "
   image-name=""
   unique-item-jp=""
   unique-item-cn=""
+  circle="圣三一自卫队"
+/>
+
+### エリカ
+
+<CharacterTable
+  family-name-jp=""
+  family-name-ruby=""
+  given-name-jp="エリカ"
+  image-name=""
+  circle="回家部"
+/>
+
+### キララ
+
+<CharacterTable
+  family-name-jp=""
+  family-name-ruby=""
+  given-name-jp="キララ"
+  image-name=""
+  circle="回家部"
 />
 
 ## 格黑娜
@@ -643,6 +695,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ワインレッド・アドマイアー"
   unique-weapon-cn="专武译文"
+  circle="便利屋68"
   unique-item-jp="アルのすごく貴重な財布"
   unique-item-cn="爱用品译文"
 />
@@ -664,6 +717,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="トリックオアトリック"
   unique-weapon-cn="专武译文"
+  circle="便利屋68"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -685,6 +739,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="デモンズロア"
   unique-weapon-cn="专武译文"
+  circle="便利屋68"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -706,6 +761,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ブローアウェイ"
   unique-weapon-cn="专武译文"
+  circle="便利屋68"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -727,6 +783,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="爆発するエキゾチック"
   unique-weapon-cn="专武译文"
+  circle="美食研究会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -748,6 +805,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="グレネード、大盛りで！"
   unique-weapon-cn="专武译文"
+  circle="美食研究会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -769,6 +827,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="デイリーカトラリー"
   unique-weapon-cn="专武译文"
+  circle="美食研究会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -790,6 +849,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="お腹空いてる時は話しかけないで！"
   unique-weapon-cn="专武译文"
+  circle="美食研究会"
   unique-item-jp="ダイナーズアウトロー"
   unique-item-cn="爱用品译文"
 />
@@ -811,6 +871,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="終幕：デストロイヤー"
   unique-weapon-cn="专武译文"
+  circle="风纪委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -832,6 +893,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="指名手配"
   unique-weapon-cn="专武译文"
+  circle="风纪委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -853,6 +915,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="サポートポインター"
   unique-weapon-cn="专武译文"
+  circle="风纪委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -874,6 +937,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ホットショット"
   unique-weapon-cn="专武译文"
+  circle="风纪委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -895,6 +959,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="給食部の護身用銃typeA"
   unique-weapon-cn="专武译文"
+  circle="供给部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -916,6 +981,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="給食部の護身用銃typeB"
   unique-weapon-cn="专武译文"
+  circle="供给部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -937,6 +1003,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="救急用突入キット"
   unique-weapon-cn="专武译文"
+  circle="急救医学部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -948,6 +1015,7 @@ onMounted(() => {
   family-name-ruby=""
   given-name-jp="カスミ"
   image-name=""
+  circle="温泉开发部"
 />
 
 ### 下仓　惠
@@ -967,6 +1035,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="メグマパワー！"
   unique-weapon-cn="专武译文"
+  circle="温泉开发部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -988,6 +1057,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="万魔殿制式拳銃"
   unique-weapon-cn="专武译文"
+  circle="万魔殿"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -998,6 +1068,7 @@ onMounted(() => {
   family-name-jp="羽沼"
   family-name-ruby="はぬま"
   given-name-jp="マコト"
+  circle="万魔殿"
   image-name=""
 />
 
@@ -1007,6 +1078,7 @@ onMounted(() => {
   family-name-jp=""
   family-name-ruby=""
   given-name-jp="イブキ"
+  circle="万魔殿"
   image-name=""
 />
 
@@ -1029,6 +1101,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ロジック＆リーズン"
   unique-weapon-cn="专武译文"
+  circle="研讨会"
   unique-item-jp="ユウカの関数電卓"
   unique-item-cn="爱用品译文"
 />
@@ -1050,6 +1123,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="救急用突入キット"
   unique-weapon-cn="专武译文"
+  circle="研讨会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1071,6 +1145,7 @@ onMounted(() => {
   sub-skill-cn="混沌理论"
   unique-weapon-jp="固有武器"
   unique-weapon-cn="专武译文"
+  circle="研讨会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1101,6 +1176,7 @@ onMounted(() => {
   sub-skill-cn="激昂"
   unique-weapon-jp="ツイン・ドラゴン"
   unique-weapon-cn="专武译文"
+  circle="C&C"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1122,6 +1198,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="サプライズパーティー"
   unique-weapon-cn="专武译文"
+  circle="C&C"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1143,6 +1220,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ホークアイ"
   unique-weapon-cn="专武译文"
+  circle="C&C"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1164,300 +1242,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="サイレントソリューション"
   unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 小涂　真纪
-
-<CharacterTable
-  family-name-jp="小塗"
-  family-name-ruby="こぬり"
-  given-name-jp="マキ"
-  image-name="maki"
-  ex-skill-jp="世界をもっと色鮮やかに！"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="くらえ、ペイントボール！"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="芸術的な演出"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="芸術の苦しみ"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="オートラッカー"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 小钩　晴
-
-<CharacterTable
-  family-name-jp="小鈎"
-  family-name-ruby="おまがり"
-  given-name-jp="ハレ"
-  image-name="hare"
-  ex-skill-jp="EMPドローン展開"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="破壊工作：プランA"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="武装強化：プランＢ"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="迎撃システム作動"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="オートエイマー"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 音濑　小玉
-
-<CharacterTable
-  family-name-jp="音瀬"
-  family-name-ruby="おとせ"
-  given-name-jp="コタマ"
-  image-name="kotama"
-  ex-skill-jp="傍受開始"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="弱点を盗聴"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="集中解析"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="電波拡散"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="エコーリンク"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 各务　千寻
-
-<CharacterTable
-  family-name-jp="各務"
-  family-name-ruby="かがみ"
-  given-name-jp="チヒロ"
-  image-name="chihiro"
-  ex-skill-jp="オーバーライド"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="イントゥ・ザ・バックドア"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="エクスプロイト"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="ファイアウォール構築"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="バックドア"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 白石　咏叶
-
-<CharacterTable
-  family-name-jp="白石"
-  family-name-ruby="しらいし"
-  given-name-jp="ウタハ"
-  image-name="utaha"
-  ex-skill-jp="雷ちゃん、召喚"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="雷ちゃんMK-II、駆動"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="技術革命"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="マイスターの誓い"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="マイスター・ゼロ"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 丰见　小鸟
-
-<CharacterTable
-  family-name-jp="豊見"
-  family-name-ruby="とよみ"
-  given-name-jp="コトリ"
-  image-name="kotori"
-  ex-skill-jp="ブラックボックス"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="ごめんなさい！"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="論点把握能力"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="理解しました！"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="プロフェッサーK"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 猫塚　响
-
-<CharacterTable
-  family-name-jp="猫塚"
-  family-name-ruby="ねこづか"
-  given-name-jp="ヒビキ"
-  image-name="hibiki"
-  ex-skill-jp="緊急出動"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="エネルギー剤注入"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="救急支援"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="可及的速やかに"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="救急用突入キット"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 花冈　柚子
-
-<CharacterTable
-  family-name-jp="花岡"
-  family-name-ruby="はなおか"
-  given-name-jp="ユズ"
-  image-name="yuzu"
-  ex-skill-jp="ゲームスタート！"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="連続コンボ！"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="デバッグ中……"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="ふりしぼる勇気"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="にゃん's ダッシュ"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 才羽　桃井
-
-<CharacterTable
-  family-name-jp="才羽"
-  family-name-ruby="さいば"
-  given-name-jp="モモイ"
-  image-name="momoi"
-  ex-skill-jp="生みの苦しみ"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="締切厳守"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="クリエイティブセンス"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="開発者シナジー：ミドリ"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="ユニーク・アイディア"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 才羽　绿
-
-<CharacterTable
-  family-name-jp="才羽"
-  family-name-ruby="さいば"
-  given-name-jp="ミドリ"
-  image-name="midori"
-  ex-skill-jp="ドローイングアート"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="磨き上げるセンス"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="アーティストインスピレーション"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="開発者シナジー：モモイ"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="フレッシュ・インスピレーション"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 天童　爱丽丝
-
-<CharacterTable
-  family-name-jp="天童"
-  family-name-ruby="てんどう"
-  given-name-jp="アリス"
-  image-name="aris"
-  ex-skill-jp="世界の 法則が 崩壊します！"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="光よ！"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="強化魔法です！"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="覚醒せよ、スーパーノヴァ！"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="光の剣：スーパーノヴァ"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 明星　日鞠
-
-<CharacterTable
-  family-name-jp="明星"
-  family-name-ruby="あけぼし"
-  given-name-jp="ヒマリ"
-  image-name="himari"
-  ex-skill-jp="少し驚くかもしれませんね"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="清楚な高嶺の花"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="超天才清楚系病弱美少女の真骨頂"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="清楚な高嶺の花"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="高嶺の花"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 和泉元　艾米
-
-<CharacterTable
-  family-name-jp="和泉元"
-  family-name-ruby="いずみもと"
-  given-name-jp="エイミ"
-  image-name="eimi"
-  ex-skill-jp="不屈の意志"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="執念の猛撃"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="スペシャリストの休憩"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="強靱な精神力"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="マルチタクティカル"
-  unique-weapon-cn="专武译文"
-  unique-item-jp=""
-  unique-item-cn=""
-/>
-
-### 乙花　堇
-
-<CharacterTable
-  family-name-jp="乙花"
-  family-name-ruby="おとはな"
-  given-name-jp="スミレ"
-  image-name="sumire"
-  ex-skill-jp="スパートをかけます！"
-  ex-skill-cn="EX技能译文"
-  normal-skill-jp="ウォーミングアップ"
-  normal-skill-cn="普通技能译文"
-  passive-skill-jp="ピンポイントアタック"
-  passive-skill-cn="被动技能译文"
-  sub-skill-jp="テンションアップ"
-  sub-skill-cn="辅助技能译文"
-  unique-weapon-jp="ミレニアム製最新型ダンベル"
-  unique-weapon-cn="专武译文"
+  circle="C&C"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1479,9 +1264,318 @@ onMounted(() => {
   sub-skill-cn="以眼还眼"
   unique-weapon-jp="シークレットタイム"
   unique-weapon-cn="专武译文"
+  circle="C&C"
   unique-item-jp=""
   unique-item-cn=""
-  :connection="[{nameJp: 'アビ・エシュフ', nameCn: 'Abi-Eshuh'}]"
+  :connection="['Abi-Eshuh']"
+/>
+
+### 小涂　真纪
+
+<CharacterTable
+  family-name-jp="小塗"
+  family-name-ruby="こぬり"
+  given-name-jp="マキ"
+  image-name="maki"
+  ex-skill-jp="世界をもっと色鮮やかに！"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="くらえ、ペイントボール！"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="芸術的な演出"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="芸術の苦しみ"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="オートラッカー"
+  unique-weapon-cn="专武译文"
+  circle="真理部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 小钩　晴
+
+<CharacterTable
+  family-name-jp="小鈎"
+  family-name-ruby="おまがり"
+  given-name-jp="ハレ"
+  image-name="hare"
+  ex-skill-jp="EMPドローン展開"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="破壊工作：プランA"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="武装強化：プランＢ"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="迎撃システム作動"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="オートエイマー"
+  unique-weapon-cn="专武译文"
+  circle="真理部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 音濑　小玉
+
+<CharacterTable
+  family-name-jp="音瀬"
+  family-name-ruby="おとせ"
+  given-name-jp="コタマ"
+  image-name="kotama"
+  ex-skill-jp="傍受開始"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="弱点を盗聴"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="集中解析"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="電波拡散"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="エコーリンク"
+  unique-weapon-cn="专武译文"
+  circle="真理部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 各务　千寻
+
+<CharacterTable
+  family-name-jp="各務"
+  family-name-ruby="かがみ"
+  given-name-jp="チヒロ"
+  image-name="chihiro"
+  ex-skill-jp="オーバーライド"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="イントゥ・ザ・バックドア"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="エクスプロイト"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="ファイアウォール構築"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="バックドア"
+  unique-weapon-cn="专武译文"
+  circle="真理部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 白石　咏叶
+
+<CharacterTable
+  family-name-jp="白石"
+  family-name-ruby="しらいし"
+  given-name-jp="ウタハ"
+  image-name="utaha"
+  ex-skill-jp="雷ちゃん、召喚"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="雷ちゃんMK-II、駆動"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="技術革命"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="マイスターの誓い"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="マイスター・ゼロ"
+  unique-weapon-cn="专武译文"
+  circle="工程部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 丰见　小鸟
+
+<CharacterTable
+  family-name-jp="豊見"
+  family-name-ruby="とよみ"
+  given-name-jp="コトリ"
+  image-name="kotori"
+  ex-skill-jp="ブラックボックス"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="ごめんなさい！"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="論点把握能力"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="理解しました！"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="プロフェッサーK"
+  unique-weapon-cn="专武译文"
+  circle="工程部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 猫塚　响
+
+<CharacterTable
+  family-name-jp="猫塚"
+  family-name-ruby="ねこづか"
+  given-name-jp="ヒビキ"
+  image-name="hibiki"
+  ex-skill-jp="緊急出動"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="エネルギー剤注入"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="救急支援"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="可及的速やかに"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="救急用突入キット"
+  unique-weapon-cn="专武译文"
+  circle="工程部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 花冈　柚子
+
+<CharacterTable
+  family-name-jp="花岡"
+  family-name-ruby="はなおか"
+  given-name-jp="ユズ"
+  image-name="yuzu"
+  ex-skill-jp="ゲームスタート！"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="連続コンボ！"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="デバッグ中……"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="ふりしぼる勇気"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="にゃん's ダッシュ"
+  unique-weapon-cn="专武译文"
+  circle="游戏开发部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 才羽　桃井
+
+<CharacterTable
+  family-name-jp="才羽"
+  family-name-ruby="さいば"
+  given-name-jp="モモイ"
+  image-name="momoi"
+  ex-skill-jp="生みの苦しみ"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="締切厳守"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="クリエイティブセンス"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="開発者シナジー：ミドリ"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="ユニーク・アイディア"
+  unique-weapon-cn="专武译文"
+  circle="游戏开发部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 才羽　绿
+
+<CharacterTable
+  family-name-jp="才羽"
+  family-name-ruby="さいば"
+  given-name-jp="ミドリ"
+  image-name="midori"
+  ex-skill-jp="ドローイングアート"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="磨き上げるセンス"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="アーティストインスピレーション"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="開発者シナジー：モモイ"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="フレッシュ・インスピレーション"
+  unique-weapon-cn="专武译文"
+  circle="游戏开发部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 天童　爱丽丝
+
+<CharacterTable
+  family-name-jp="天童"
+  family-name-ruby="てんどう"
+  given-name-jp="アリス"
+  image-name="aris"
+  ex-skill-jp="世界の 法則が 崩壊します！"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="光よ！"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="強化魔法です！"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="覚醒せよ、スーパーノヴァ！"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="光の剣：スーパーノヴァ"
+  unique-weapon-cn="专武译文"
+  circle="游戏开发部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 明星　日鞠
+
+<CharacterTable
+  family-name-jp="明星"
+  family-name-ruby="あけぼし"
+  given-name-jp="ヒマリ"
+  image-name="himari"
+  ex-skill-jp="少し驚くかもしれませんね"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="清楚な高嶺の花"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="超天才清楚系病弱美少女の真骨頂"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="清楚な高嶺の花"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="高嶺の花"
+  unique-weapon-cn="专武译文"
+  circle="特异现象搜查部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 和泉元　艾米
+
+<CharacterTable
+  family-name-jp="和泉元"
+  family-name-ruby="いずみもと"
+  given-name-jp="エイミ"
+  image-name="eimi"
+  ex-skill-jp="不屈の意志"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="執念の猛撃"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="スペシャリストの休憩"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="強靱な精神力"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="マルチタクティカル"
+  unique-weapon-cn="专武译文"
+  circle="特异现象搜查部"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 乙花　堇
+
+<CharacterTable
+  family-name-jp="乙花"
+  family-name-ruby="おとはな"
+  given-name-jp="スミレ"
+  image-name="sumire"
+  ex-skill-jp="スパートをかけます！"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="ウォーミングアップ"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="ピンポイントアタック"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="テンションアップ"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="ミレニアム製最新型ダンベル"
+  unique-weapon-cn="专武译文"
+  circle="训练部"
+  unique-item-jp=""
+  unique-item-cn=""
 />
 
 ## 百鬼夜行
@@ -1493,6 +1587,7 @@ onMounted(() => {
   family-name-ruby="くわかみ"
   given-name-jp="カホ"
   image-name=""
+  circle="阴阳部"
 />
 
 ### 和乐　千世
@@ -1501,7 +1596,20 @@ onMounted(() => {
   family-name-jp="和楽"
   family-name-ruby="わらく"
   given-name-jp="チセ"
-  image-name=""
+  image-name="chise"
+  ex-skill-jp="これは痛いかもよ～"
+  ex-skill-cn="EX技能译文"
+  normal-skill-jp="撃つよ～"
+  normal-skill-cn="普通技能译文"
+  passive-skill-jp="よーし、頑張ろ～"
+  passive-skill-cn="被动技能译文"
+  sub-skill-jp="ちょっと痛むよ～"
+  sub-skill-cn="辅助技能译文"
+  unique-weapon-jp="五七五式榴弾砲"
+  unique-weapon-cn="专武译文"
+  circle="阴阳部"
+  unique-item-jp=""
+  unique-item-cn=""
 />
 
 ### 天地　妮娅
@@ -1511,6 +1619,7 @@ onMounted(() => {
   family-name-ruby="あまち"
   given-name-jp="ニヤ"
   image-name=""
+  circle="阴阳部"
 />
 
 ### 春日　椿
@@ -1530,6 +1639,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="安眠のお供Ⅱ"
   unique-weapon-cn="专武译文"
+  circle="修行部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1551,6 +1661,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="柔らかな決意"
   unique-weapon-cn="专武译文"
+  circle="修行部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1572,6 +1683,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ファニー・ファイアワークス"
   unique-weapon-cn="专武译文"
+  circle="修行部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1593,6 +1705,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="桜ボンボン"
   unique-weapon-cn="专武译文"
+  circle="祭典运营委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1614,6 +1727,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="仁義なき撃ち合い"
   unique-weapon-cn="专武译文"
+  circle="祭典运营委员会"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1621,10 +1735,11 @@ onMounted(() => {
 ### ウミカ
 
 <CharacterTable
-family-name-jp=""
-family-name-ruby=""
-given-name-jp="ウミカ"
-image-name=""
+  family-name-jp=""
+  family-name-ruby=""
+  given-name-jp="ウミカ"
+  image-name=""
+  circle="祭典运营委员会"
 />
 
 ### 千鸟　满
@@ -1644,9 +1759,10 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ミチル流オーバーフローショットガン"
   unique-weapon-cn="专武译文"
+  circle="忍术研究部"
   unique-item-jp=""
   unique-item-cn=""
-  :connection="[{nameJp: 'かまぼこ突風伝', nameCn: '鱼板疾风传'}]"
+  :connection="['鱼板疾风传']"
 />
 
 ### 久田　泉奈
@@ -1666,6 +1782,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="イズナ流スーパー忍具"
   unique-weapon-cn="专武译文"
+  circle="忍术研究部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1687,6 +1804,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ツクヨ流サブマシンガン"
   unique-weapon-cn="专武译文"
+  circle="忍术研究部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1708,6 +1826,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="真紅の災厄"
   unique-weapon-cn="专武译文"
+  circle="停学"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1731,6 +1850,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="チーストカ"
   unique-weapon-cn="专武译文"
+  circle="红冬事务局"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1752,6 +1872,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ヴィエールナシチ"
   unique-weapon-cn="专武译文"
+  circle="红冬事务局"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1773,6 +1894,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="バラライカ"
   unique-weapon-cn="专武译文"
+  circle="红冬事务局"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1794,6 +1916,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="サジタリウスナイト"
   unique-weapon-cn="专武译文"
+  circle="227号特别班"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1815,6 +1938,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="スプリングパンチ"
   unique-weapon-cn="专武译文"
+  circle="227号特别班"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1826,6 +1950,7 @@ image-name=""
   family-name-ruby="あきいずみ"
   given-name-jp="モミジ"
   image-name=""
+  circle="知识解放战线"
 />
 
 ### 姫木　メル
@@ -1835,6 +1960,7 @@ image-name=""
   family-name-ruby="ひめき"
   given-name-jp="メル"
   image-name=""
+  circle="知识解放战线"
 />
 
 ### 安守　ミノリ
@@ -1844,6 +1970,7 @@ image-name=""
   family-name-ruby="やすもり"
   given-name-jp="ミノリ"
   image-name=""
+  circle="工务部"
 />
 
 ## 山海经
@@ -1865,6 +1992,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="愛のムチ"
   unique-weapon-cn="专武译文"
+  circle="梅花园"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1886,6 +2014,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="レディーの気品"
   unique-weapon-cn="专武译文"
+  circle="梅花园"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1907,8 +2036,39 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="ぼく様特製拳銃"
   unique-weapon-cn="专武译文"
+  circle="炼丹术研究会"
   unique-item-jp=""
   unique-item-cn=""
+/>
+
+### ルミ
+
+<CharacterTable
+  family-name-jp=""
+  family-name-ruby=""
+  given-name-jp="ルミ"
+  image-name=""
+  circle="玄武商会"
+/>
+
+### キサキ
+
+<CharacterTable
+  family-name-jp=""
+  family-name-ruby=""
+  given-name-jp="キサキ"
+  image-name=""
+  circle="玄龙门"
+/>
+
+### ミナ
+
+<CharacterTable
+  family-name-jp=""
+  family-name-ruby=""
+  given-name-jp="ミナ"
+  image-name=""
+  circle="玄龙门"
 />
 
 ## SRT 特殊学园
@@ -1930,6 +2090,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="RABBIT-31式短機関銃"
   unique-weapon-cn="专武译文"
+  circle="RABBIT小队"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1951,6 +2112,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="RABBIT-26式機関銃"
   unique-weapon-cn="专武译文"
+  circle="RABBIT小队"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1972,6 +2134,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="RABBIT-39式小銃"
   unique-weapon-cn="专武译文"
+  circle="RABBIT小队"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -1993,6 +2156,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp=" RABBIT-224式拳銃"
   unique-weapon-cn="专武译文"
+  circle="RABBIT小队"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -2004,6 +2168,7 @@ image-name=""
   family-name-ruby=""
   given-name-jp="ユキノ"
   image-name=""
+  circle="FOX小队"
 />
 
 ### 妮可
@@ -2013,6 +2178,7 @@ image-name=""
   family-name-ruby=""
   given-name-jp="ニコ"
   image-name=""
+  circle="FOX小队"
 />
 
 ## 瓦尔基里警察学校
@@ -2034,6 +2200,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="第3号ヴァルキューレ制式拳銃"
   unique-weapon-cn="专武译文"
+  circle="生活安全局"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -2055,6 +2222,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="第14号ヴァルキューレ制式ライフル"
   unique-weapon-cn="专武译文"
+  circle="生活安全局"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -2076,6 +2244,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="第17号ヴァルキューレ制式拳銃"
   unique-weapon-cn="专武译文"
+  circle="公安局"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -2099,6 +2268,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="アリウス製アサルトライフル"
   unique-weapon-cn="专武译文"
+  circle="阿里乌斯小队"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -2120,6 +2290,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="スコルピウス"
   unique-weapon-cn="专武译文"
+  circle="阿里乌斯小队"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -2141,6 +2312,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="セイントプレデター"
   unique-weapon-cn="专武译文"
+  circle="阿里乌斯小队"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -2162,6 +2334,7 @@ image-name=""
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="アイデンティティ"
   unique-weapon-cn="专武译文"
+  circle="阿里乌斯小队"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -2175,6 +2348,7 @@ image-name=""
   family-name-ruby="なながみ"
   given-name-jp="リン"
   image-name=""
+  circle="联邦学生会"
 />
 
 ### 由良木　桃香
@@ -2184,6 +2358,7 @@ image-name=""
   family-name-ruby="ゆらぎ"
   given-name-jp="モモカ"
   image-name=""
+  circle="联邦学生会"
 />
 
 ### 岩櫃　アユム
@@ -2193,6 +2368,7 @@ image-name=""
   family-name-ruby="いわびつ"
   given-name-jp="アユム"
   image-name=""
+  circle="联邦学生会"
 />
 
 ### 不知火　カヤ
@@ -2202,6 +2378,17 @@ image-name=""
   family-name-ruby="しらぬい"
   given-name-jp="カヤ"
   image-name=""
+  circle="联邦学生会"
+/>
+
+### 扇喜　アオイ
+
+<CharacterTable
+  family-name-jp="扇喜"
+  family-name-ruby="おうぎ"
+  given-name-jp="アオイ"
+  image-name=""
+  circle="联邦学生会"
 />
 
 ## 克罗诺斯学校
@@ -2213,6 +2400,7 @@ image-name=""
   family-name-ruby="かわる"
   given-name-jp="シノン"
   image-name=""
+  circle="报导部"
 />
 
 ### マイ
@@ -2222,6 +2410,7 @@ image-name=""
   family-name-ruby=""
   given-name-jp="マイ"
   image-name=""
+  circle="报导部"
 />
 
 ## 钢盔团
@@ -2233,6 +2422,7 @@ image-name=""
   family-name-ruby=""
   given-name-jp="ラブ"
   image-name=""
+  circle="钢盔团"
 />
 
 ## 狂猎艺术学校

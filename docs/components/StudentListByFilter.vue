@@ -3,11 +3,12 @@
     <span>{{ 'school' === props.filterBy ? '学校' : '社团' }}成员：</span>
     <!-- eslint-disable vue/require-v-for-key -->
     <span class="student-link" v-for="student in filteredStudents">
-      <a :href="getStudentAnchor(student)" target="_blank">
+      <a :href="getStudentAnchor(student)">
         {{ student.familyName.cn }}{{ student.name.cn }}
       </a>
     </span>
     <!-- eslint-enable vue/require-v-for-key -->
+    <slot></slot>
   </div>
 </template>
 
@@ -52,10 +53,10 @@ function getStudentAnchor(student: Student) {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .filtered-students {
   .student-link:not(:last-child)::after {
-    content: '，';
+    content: '｜';
   }
 }
 </style>
