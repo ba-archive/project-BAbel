@@ -1,9 +1,3 @@
-<style>
-.vp-doc {
-  content-visibility: auto;
-}
-</style>
-
 # 拟声词、拟态词
 
 > 词汇均由互联网收集整理
