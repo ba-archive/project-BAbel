@@ -22,7 +22,6 @@
     "@typescript-eslint/parser": "5.52.0",
     "@vite-pwa/vitepress": "0.0.5",
     "@vue/eslint-config-typescript": "11.0.2",
-    "@vuepress/plugin-active-header-links": "2.0.0-beta.60",
     "element-plus": "2.2.32",
     "eslint": "8.34.0",
     "eslint-config-prettier": "8.6.0",
