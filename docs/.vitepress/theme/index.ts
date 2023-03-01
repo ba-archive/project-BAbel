@@ -1,5 +1,6 @@
 import Theme from 'vitepress/theme';
 import './custom_style.scss';
+import 'element-plus/theme-chalk/dark/css-vars.css';
 import { h } from 'vue';
 
 // @ts-ignore
