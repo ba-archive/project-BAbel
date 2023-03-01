@@ -95,6 +95,20 @@
   }
 }
 
+.dark {
+  .DocSearch-Form {
+    background-color: #333 !important;
+  }
+
+  .search-item {
+    background-color: var(--vp-custom-block-details-bg) !important;
+
+    &:hover {
+      background-color: var(--vp-c-brand-dark) !important;
+    }
+  }
+}
+
 .modal-back {
   background: #09142569;
 
@@ -117,6 +131,7 @@
       background: transparent;
     }
 
+    //noinspection CssOverwrittenProperties
     .search-list {
       display: flex;
       flex-direction: column;
@@ -124,7 +139,8 @@
       margin-top: 16px;
       padding: 0 16px;
       overflow-y: auto;
-      max-height: calc(100% - 151px);
+      max-height: calc(100vh - 151px);
+      max-height: calc(100dvh - 151px);
       overscroll-behavior-y: contain;
 
       &::after {
@@ -159,6 +175,7 @@
           padding: 12px 16px;
           box-shadow: var(--style-shadow-near);
           transition: all 0.2s ease-in-out;
+          background: #fff;
 
           &:hover {
             background-color: var(--vp-c-brand);
