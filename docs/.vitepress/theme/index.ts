@@ -1,5 +1,5 @@
 import Theme from 'vitepress/theme';
-import './custom_style.css';
+import './custom_style.scss';
 import { h } from 'vue';
 
 // @ts-ignore
