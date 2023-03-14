@@ -959,7 +959,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="給食部の護身用銃typeA"
   unique-weapon-cn="专武译文"
-  circle="供给部"
+  circle="供餐部"
   unique-item-jp=""
   unique-item-cn=""
 />
@@ -981,7 +981,7 @@ onMounted(() => {
   sub-skill-cn="辅助技能译文"
   unique-weapon-jp="給食部の護身用銃typeB"
   unique-weapon-cn="专武译文"
-  circle="供给部"
+  circle="供餐部"
   unique-item-jp=""
   unique-item-cn=""
 />
