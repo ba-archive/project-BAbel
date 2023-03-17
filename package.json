@@ -10,11 +10,11 @@
     "build": "vitepress build docs",
     "preview": "vitepress build docs && vitepress preview docs",
     "format": "prettier --config .prettierrc.json -uw ./docs/components",
-    "check": "vue-tsc --noEmit; eslint --config ./.eslintrc.json ./docs/ --ext .js,.ts,.vue"
+    "check": "vue-tsc --noEmit --skipLibCheck; eslint --config ./.eslintrc.json ./docs/ --ext .js,.ts,.vue"
   },
   "keywords": [],
   "author": "碧蓝档案资讯站",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "devDependencies": {
     "@algolia/client-search": "4.15.0",
     "@rushstack/eslint-patch": "1.2.0",

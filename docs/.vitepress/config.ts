@@ -31,6 +31,12 @@ export default withPwa(
     themeConfig: {
       nav: getMenuItems('navbar') as DefaultTheme.NavItem[],
       sidebar: getMenuItems('sidebar') as DefaultTheme.Sidebar,
+      footer: {
+        message:
+          '本站与 <a href="https://www.yostar.co.jp/" target="_blank">Yostar</a>、<a href="https://www.nexon.com/" target="_blank">Nexon</a> 以及 <a href="https://www.nexon.com/" target="_blank">Nexon Games</a> 没有关联。<br>本数据库中使用的所有游戏作品、信息和素材均为各自作者的财产和版权。',
+        copyright:
+          'This site is not affiliated with <a href="https://www.yostar.co.jp/" target="_blank">Yostar</a>, <a href="https://www.nexon.com/" target="_blank">Nexon</a> and <a href="https://www.nexon.com/" target="_blank">Nexon Games</a>.<br>All game artwork, information and assets used in this database are the property and copyright of the respective authors.',
+      },
     },
 
     pwa: {
