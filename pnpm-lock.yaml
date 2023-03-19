@@ -23,7 +23,7 @@ specifiers:
   unplugin-vue-components: 0.24.1
   vite: 4.1.4
   vite-plugin-pwa: 0.14.4
-  vitepress: 1.0.0-alpha.51
+  vitepress: 1.0.0-alpha.52
   vitepress-plugin-search: 1.0.4-alpha.19
   vue: 3.2.47
   vue-tsc: 1.2.0
@@ -54,8 +54,8 @@ devDependencies:
   unplugin-auto-import: 0.15.1_@vueuse+core@9.13.0
   unplugin-icons: 0.15.3
   unplugin-vue-components: 0.24.1_vue@3.2.47
-  vitepress: 1.0.0-alpha.51_rsumd67n65m4pc2ih6ynvkwvqq
-  vitepress-plugin-search: 1.0.4-alpha.19_wa76uzoxa7sjxpgthdjgz7ruma
+  vitepress: 1.0.0-alpha.52_rsumd67n65m4pc2ih6ynvkwvqq
+  vitepress-plugin-search: 1.0.4-alpha.19_wg32uep3w35pmjh2annxmfqbny
   vue: 3.2.47
   vue-tsc: 1.2.0_typescript@4.9.5
   workbox-window: 6.5.4
@@ -4285,7 +4285,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitepress-plugin-search/1.0.4-alpha.19_wa76uzoxa7sjxpgthdjgz7ruma:
+  /vitepress-plugin-search/1.0.4-alpha.19_wg32uep3w35pmjh2annxmfqbny:
     resolution: {integrity: sha512-WFOPn5dStyMINd+rVjNxbEmGa7U+qGHLxLnda56EG+ATil1i0yOauGhJEh5LPMvuCUVIA9tInJnFXklOBb39dA==}
     engines: {node: ^14.13.1 || ^16.7.0 || >=18}
     peerDependencies:
@@ -4297,12 +4297,12 @@ packages:
       '@types/markdown-it': 12.2.3
       flexsearch: 0.7.31
       markdown-it: 13.0.1
-      vitepress: 1.0.0-alpha.51_rsumd67n65m4pc2ih6ynvkwvqq
+      vitepress: 1.0.0-alpha.52_rsumd67n65m4pc2ih6ynvkwvqq
       vue: 3.2.47
     dev: true
 
-  /vitepress/1.0.0-alpha.51_rsumd67n65m4pc2ih6ynvkwvqq:
-    resolution: {integrity: sha512-euZpjXeIaNUadLAQtd7NYbKhJJoDyZ6z8YK77qlM2c6NvUB5wmLPU6moP4rfcKUqpBDrsrxjJS6fdPk6azS5qQ==}
+  /vitepress/1.0.0-alpha.52_rsumd67n65m4pc2ih6ynvkwvqq:
+    resolution: {integrity: sha512-DAaO5/yGXCVHXXwVJO/T1wS03curMgOhYnh1LVDTZAf0s1qr282id5j45IYEWthWcUZRD6ST9EAIZNsXHo4O7g==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.3.3
