@@ -74,6 +74,7 @@ import 'element-plus/es/components/collapse/style/css'
 
 ### [游戏内专有名词翻译规范](translation/ingame-terms)
 
-## 发布规范
+[//]: # (## 发布规范)
 
-### [PV 技能标准模板](publication/pv-skills)
+[//]: # ()
+[//]: # (### [PV 技能标准模板]&#40;publication/pv-skills&#41;)

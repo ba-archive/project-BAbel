@@ -1,24 +1,17 @@
 ---
 layout: home
 
-title: VitePress
-titleTemplate: Vite & Vue Powered Static Site Generator
+title: Project BAbel
+titleTemplate: 碧蓝档案中文名词对齐计划
 
 hero:
-  name: 碧蓝档案资讯站
-  text: 发布规范文档
-  tagline: ''
-  image:
-    src: /logo.png
-    alt: VitePress
+  name: 巴别塔计划
+  tagline: 打破翻译的隔阂
   actions:
     - theme: brand
-      text: 发布规范
-      link: /guidelines/
-    - theme: alt
       text: 已有名词表
       link: /terms/
     - theme: alt
-      text: 词典
-      link: /dict/
+      text: 资讯站发布规范
+      link: /guidelines/
 ---

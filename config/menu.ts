@@ -27,20 +27,20 @@ export const navItems: NavItemWithMeta[] = [
       },
     ],
   },
-  {
-    text: '发布规范',
-    meta: {
-      shouldShowInNavbar: true,
-      shouldShowInSidebar: true,
-    },
-    collapsed: false,
-    items: [
-      {
-        text: 'PV技能标准模板',
-        link: '/guidelines/publication/pv-skills',
-      },
-    ],
-  },
+  // {
+  //   text: '发布规范',
+  //   meta: {
+  //     shouldShowInNavbar: true,
+  //     shouldShowInSidebar: true,
+  //   },
+  //   collapsed: false,
+  //   items: [
+  //     {
+  //       text: 'PV技能标准模板',
+  //       link: '/guidelines/publication/pv-skills',
+  //     },
+  //   ],
+  // },
   {
     text: '已有名词表',
     meta: {

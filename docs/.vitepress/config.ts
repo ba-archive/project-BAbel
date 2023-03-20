@@ -13,9 +13,9 @@ function getMenuItems(
 
 export default withPwa(
   defineConfig({
-    lang: 'en-US',
-    title: '碧蓝档案资讯站',
-    description: '翻译规范',
+    lang: 'zh-CN',
+    title: 'Project BAbel',
+    description: '碧蓝档案中文名词对齐计划',
 
     lastUpdated: true,
     cleanUrls: true,
