@@ -2,10 +2,10 @@
 layout: home
 
 title: Project BAbel
-titleTemplate: 碧蓝档案中文名词对齐计划
+titleTemplate: 碧蓝档案中文名词对齐项目
 
 hero:
-  name: 巴别塔计划
+  name: Project BAbel
   tagline: 打破翻译的隔阂
   actions:
     - theme: brand

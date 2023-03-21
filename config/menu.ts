@@ -18,11 +18,11 @@ export const navItems: NavItemWithMeta[] = [
     collapsed: false,
     items: [
       {
-        text: '人名、地名翻译规范',
+        text: '资讯站人名、地名翻译规范',
         link: '/guidelines/translation/character-names-and-locations',
       },
       {
-        text: '游戏内专有名词翻译规范',
+        text: '资讯站游戏内专有名词翻译规范',
         link: '/guidelines/translation/ingame-terms',
       },
     ],
@@ -50,12 +50,8 @@ export const navItems: NavItemWithMeta[] = [
     collapsed: false,
     items: [
       {
-        text: '人物姓名、武器及技能翻译一览',
+        text: '人物姓名、武器及技能一览',
         link: '/terms/characters',
-      },
-      {
-        text: '往期活动、卡池翻译一览',
-        link: '/terms/events-and-gacha',
       },
       {
         text: '地名、学校名及社团名一览',
@@ -64,6 +60,14 @@ export const navItems: NavItemWithMeta[] = [
       {
         text: '游戏内其他名词一览',
         link: '/terms/others',
+      },
+      {
+        text: '往期活动、卡池一览',
+        link: '/terms/events-and-gacha',
+      },
+      {
+        text: '剧情章节名一览',
+        link: '/terms/chapters',
       },
     ],
   },
