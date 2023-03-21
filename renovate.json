@@ -12,6 +12,10 @@
       "groupSlug": "all-minor-patch",
       "stabilityDays": 7,
       "automerge": true
+    },
+    {
+      "matchPackageNames": ["vitepress"],
+      "enabled": false
     }
   ]
 }

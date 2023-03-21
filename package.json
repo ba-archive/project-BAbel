@@ -34,7 +34,7 @@
     "unplugin-auto-import": "0.15.1",
     "unplugin-icons": "0.15.3",
     "unplugin-vue-components": "0.24.1",
-    "vitepress": "1.0.0-alpha.52",
+    "vitepress": "1.0.0-alpha.49",
     "vitepress-plugin-search": "1.0.4-alpha.19",
     "vue": "3.2.47",
     "vue-tsc": "1.2.0",
