@@ -18,7 +18,7 @@ export const navItems: NavItemWithMeta[] = [
     collapsed: false,
     items: [
       {
-        text: '资讯站人名、地名翻译规范',
+        text: '资讯站人名地名翻译规范',
         link: '/guidelines/translation/character-names-and-locations',
       },
       {
@@ -69,6 +69,10 @@ export const navItems: NavItemWithMeta[] = [
         text: '剧情章节名一览',
         link: '/terms/chapters',
       },
+      {
+        text: '总力战 boss、十字神明预言者等一览',
+        link: '/terms/bosses',
+      },
     ],
   },
   {
@@ -86,6 +90,10 @@ export const navItems: NavItemWithMeta[] = [
       {
         text: '拟声词、拟态词一览',
         link: '/dict/onomatopoeia',
+      },
+      {
+        text: '笑声一览',
+        link: '/dict/laughter',
       },
     ],
   },
