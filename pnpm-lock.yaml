@@ -9,7 +9,7 @@ specifiers:
   '@vue/eslint-config-typescript': 11.0.2
   '@vueuse/core': 9.13.0
   axios: 1.3.4
-  element-plus: 2.3.0
+  element-plus: 2.3.1
   eslint: 8.36.0
   eslint-config-prettier: 8.7.0
   eslint-plugin-vue: 9.9.0
@@ -42,7 +42,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.55.0_vgl77cfdswitgr47lm5swmv43m
   '@vite-pwa/vitepress': 0.0.5_vite-plugin-pwa@0.14.4
   '@vue/eslint-config-typescript': 11.0.2_75cttubc7yphoaabg6k3yrjnke
-  element-plus: 2.3.0_vue@3.2.47
+  element-plus: 2.3.1_vue@3.2.47
   eslint: 8.36.0
   eslint-config-prettier: 8.7.0_eslint@8.36.0
   eslint-plugin-vue: 9.9.0_eslint@8.36.0
@@ -2487,8 +2487,8 @@ packages:
   /electron-to-chromium/1.4.310:
     resolution: {integrity: sha512-/xlATgfwkm5uDDwLw5nt/MNEf7c1oazLURMZLy39vOioGYyYzLWIDT8fZMJak6qTiAJ7udFTy7JG7ziyjNutiA==}
 
-  /element-plus/2.3.0_vue@3.2.47:
-    resolution: {integrity: sha512-3s3JO4+LHLi61tFwF2emIHx6nxwKKdj5YWcj3GUBoXKhbuRjhq6xqaxWpBlPk7jySr/8Eci5++T2THbvrpGn7A==}
+  /element-plus/2.3.1_vue@3.2.47:
+    resolution: {integrity: sha512-IBS7ic1mRyDXpOreRkredV4ByZSuax5HPb0zNOHm4qwKC4wm927yQv+Is0JbzxPzCW5zWaV4PLy9/Gl3E3v59w==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
