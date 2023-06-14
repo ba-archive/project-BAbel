@@ -1,10 +1,12 @@
 # 翻译和发布规范
 
+`最后更新：果穗`
+
 ## 构建发布
 
 你需要安装有基本的开发环境。如下：
 
-- node.js：[node系列-安装nodejs - 掘金](https://juejin.cn/post/6940867941445894157)
+- node.js：[node 系列-安装 nodejs - 掘金](https://juejin.cn/post/6940867941445894157)
 - [Visual Studio Code （免费）](https://code.visualstudio.com/)，如果你是富老板或者是穷学生，可以使用 [WebStorm](https://www.jetbrains.com/zh-cn/webstorm/)。
 
 ### 安装依赖
