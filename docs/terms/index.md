@@ -4,6 +4,8 @@
 
 ## [地名、学校名及社团名一览表](places-and-circles)
 
+## [日鞠的五十一个名字](the-fifty-one-names-of-otto)
+
 ## [游戏内其他名词一览表](others)
 
 ## [往期活动、卡池一览表](events-and-gacha)

@@ -10,7 +10,17 @@
     "build": "vitepress build docs",
     "preview": "vitepress build docs && vitepress preview docs",
     "format": "prettier --config .prettierrc.json -uw ./docs/components",
-    "check": "vue-tsc --noEmit --skipLibCheck; eslint --config ./.eslintrc.json ./docs/ --ext .js,.ts,.vue"
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "docs/**/*.{ts,js,vue,md}": [
+      "prettier --config .prettierrc.json --write",
+      "git add"
+    ],
+    "*.md": [
+      "prettier --config .prettierrc.json --write",
+      "git add"
+    ]
   },
   "keywords": [],
   "author": "碧蓝档案资讯站",
@@ -43,6 +53,7 @@
   "dependencies": {
     "@vueuse/core": "10.1.2",
     "axios": "1.4.0",
+    "husky": "^8.0.3",
     "vite": "4.3.9",
     "vite-plugin-pwa": "0.16.3"
   }

@@ -58,6 +58,10 @@ export const navItems: NavItemWithMeta[] = [
         link: '/terms/places-and-circles',
       },
       {
+        text: '日鞠的五十一个名字',
+        link: '/terms/the-fifty-one-names-of-otto',
+      },
+      {
         text: '游戏内其他名词一览',
         link: '/terms/others',
       },
