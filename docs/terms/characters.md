@@ -649,8 +649,18 @@ onMounted(() => {
 <CharacterTable
   family-name-jp="宇沢"
   family-name-ruby="うざわ"
-  given-name-jp="レイサ "
-  image-name=""
+  given-name-jp="レイサ"
+  image-name="reisa"
+  ex-skill-jp="挑戦状を受け取ってください！"
+  ex-skill-cn="请收下挑战书吧！"
+  normal-skill-jp="勝利のポーズ！"
+  normal-skill-cn="胜利的Pose！"
+  passive-skill-jp="一日中でも！"
+  passive-skill-cn="一整天都行！"
+  sub-skill-jp="宇沢レイサの存在感"
+  sub-skill-cn="宇泽玲纱的存在感"
+  unique-weapon-jp="シューティング☆スター"
+  unique-weapon-cn="专武译文"
   unique-item-jp=""
   unique-item-cn=""
   circle="圣三一自卫队"
@@ -2041,34 +2051,80 @@ onMounted(() => {
   unique-item-cn=""
 />
 
-### ルミ
+### 朱城 瑠美
 
 <CharacterTable
-  family-name-jp=""
-  family-name-ruby=""
+  family-name-jp="朱城"
+  family-name-ruby="あけしろ"
   given-name-jp="ルミ"
-  image-name=""
+  image-name="rumi"
+  ex-skill-jp="天下一味！"
+  ex-skill-cn="天下一味！"
+  normal-skill-jp="クレーマーお断り！"
+  normal-skill-cn="不接受投诉！"
+  passive-skill-jp="商会長の矜持"
+  passive-skill-cn="商会会长的矜持"
+  sub-skill-jp="記憶に残る味"
+  sub-skill-cn="回味无穷"
+  unique-weapon-jp="温故知新"
+  unique-weapon-cn="温故知新"
   circle="玄武商会"
+  unique-item-jp=""
+  unique-item-cn=""
 />
 
-### キサキ
+### 龙华 妃咲
 
 <CharacterTable
-  family-name-jp=""
-  family-name-ruby=""
+  family-name-jp="竜華"
+  family-name-ruby="りゅうげ"
   given-name-jp="キサキ"
   image-name=""
   circle="玄龙门"
 />
 
-### ミナ
+### 近卫 弥奈
+
+<CharacterTable
+  family-name-jp="近衛"
+  family-name-ruby="このえ"
+  given-name-jp="ミナ"
+  image-name="mina"
+  ex-skill-jp="竜虎相搏"
+  ex-skill-cn="龙虎相搏"
+  normal-skill-jp="破竹之勢"
+  normal-skill-cn="破竹之势"
+  passive-skill-jp="一志不退"
+  passive-skill-cn="矢志不退"
+  sub-skill-jp="騎虎之勢"
+  sub-skill-cn="骑虎之势"
+  unique-weapon-jp="玄龍＆白虎"
+  unique-weapon-cn="玄龙&白虎"
+  circle="玄龙门"
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+### 俪舒
 
 <CharacterTable
   family-name-jp=""
   family-name-ruby=""
-  given-name-jp="ミナ"
+  given-name-jp="レイジョ"
   image-name=""
-  circle="玄龙门"
+  ex-skill-jp=""
+  ex-skill-cn=""
+  normal-skill-jp=""
+  normal-skill-cn=""
+  passive-skill-jp=""
+  passive-skill-cn=""
+  sub-skill-jp=""
+  sub-skill-cn=""
+  unique-weapon-jp=""
+  unique-weapon-cn=""
+  circle="玄武商会"
+  unique-item-jp=""
+  unique-item-cn=""
 />
 
 ## SRT 特殊学园
@@ -2438,3 +2494,28 @@ onMounted(() => {
 ## 奥德赛海洋高等学校
 
 ## NPC
+
+<details>
+<summary>学生技能模板</summary>
+
+<CharacterTable
+  family-name-jp=""
+  family-name-ruby=""
+  given-name-jp=""
+  image-name=""
+  ex-skill-jp=""
+  ex-skill-cn=""
+  normal-skill-jp=""
+  normal-skill-cn=""
+  passive-skill-jp=""
+  passive-skill-cn=""
+  sub-skill-jp=""
+  sub-skill-cn=""
+  unique-weapon-jp=""
+  unique-weapon-cn=""
+  circle=""
+  unique-item-jp=""
+  unique-item-cn=""
+/>
+
+</details>

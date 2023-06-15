@@ -50,7 +50,8 @@ function normalizeCircleURI(circle: string): string {
           >{{ familyNameJp }}
           <rt>{{ familyNameRuby }}</rt>
         </ruby>
-        {{ familyNameJp.length > 0 ? '　' : '' }}{{ givenNameJp }}
+        {{ familyNameJp.length > 0 ? '　' : ''
+        }}{{ givenNameJp.length === 0 ? 'メイ' : givenNameJp }}
       </th>
       <!-- eslint-enable no-irregular-whitespace -->
     </tr>
@@ -74,20 +75,26 @@ function normalizeCircleURI(circle: string): string {
       </td>
     </tr>
     <tr>
-      <td>{{ exSkillJp }}</td>
-      <td>{{ exSkillCn }}</td>
+      <td>{{ exSkillJp.length === 0 ? 'EXスキル' : exSkillJp }}</td>
+      <td>{{ exSkillCn.length === 0 ? 'EX技能译文' : exSkillCn }}</td>
     </tr>
     <tr>
-      <td>{{ normalSkillJp }}</td>
-      <td>{{ normalSkillCn }}</td>
+      <td>
+        {{ normalSkillJp.length === 0 ? 'ノーマルスキル' : normalSkillJp }}
+      </td>
+      <td>{{ normalSkillCn.length === 0 ? '被动技能译文' : normalSkillCn }}</td>
     </tr>
     <tr>
-      <td>{{ passiveSkillJp }}</td>
-      <td>{{ passiveSkillCn }}</td>
+      <td>
+        {{ passiveSkillJp.length === 0 ? 'パッシブスキル' : passiveSkillJp }}
+      </td>
+      <td>
+        {{ passiveSkillCn.length === 0 ? '被动技能译文' : passiveSkillCn }}
+      </td>
     </tr>
     <tr>
-      <td>{{ subSkillJp }}</td>
-      <td>{{ subSkillCn }}</td>
+      <td>{{ subSkillJp.length === 0 ? 'サブスキル' : subSkillJp }}</td>
+      <td>{{ subSkillCn.length === 0 ? '辅助技能译文' : subSkillCn }}</td>
     </tr>
     <tr v-if="circle.length > 0">
       <th>社团</th>
@@ -100,8 +107,10 @@ function normalizeCircleURI(circle: string): string {
       <th colspan="2">专武译文</th>
     </tr>
     <tr>
-      <td>{{ uniqueWeaponJp }}</td>
-      <td colspan="2">{{ uniqueWeaponCn }}</td>
+      <td>{{ uniqueWeaponJp.length === 0 ? '固有武器' : uniqueWeaponJp }}</td>
+      <td colspan="2">
+        {{ uniqueWeaponCn.length === 0 ? '专武译文' : uniqueWeaponCn }}
+      </td>
     </tr>
     <tr v-if="uniqueItemJp.length > 0">
       <th>爱用品原文</th>
