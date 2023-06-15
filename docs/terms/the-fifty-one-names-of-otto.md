@@ -186,12 +186,6 @@ SPTF
 
 ![](../public/image/evidence/himari/himari-14.webp)
 
-## 超天才病弱美少女
-
-> 超天才病弱美少女
-
-![](../public/image/evidence/himari/himari-15.webp)
-
 ## 美少女黑客
 
 > 美少女ハッカー
