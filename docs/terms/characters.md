@@ -2467,10 +2467,10 @@ onMounted(() => {
   circle="报导部"
 />
 
-### マイ
+### 风卷 マイ
 
 <CharacterTable
-  family-name-jp=""
+  family-name-jp="風巻"
   family-name-ruby=""
   given-name-jp="マイ"
   image-name=""
