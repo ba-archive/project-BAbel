@@ -2479,7 +2479,7 @@ onMounted(() => {
 
 ## 钢盔团
 
-### ラブ
+### 兰舞
 
 <CharacterTable
   family-name-jp=""
