@@ -559,10 +559,9 @@ property="生活安全局"
 <StudentListByFilter
 filter-by="school"
 property="圣三一"
-:students="students"
-
-> <span class="student-link"><a href="/terms/characters#百合园-圣娅">百合园圣娅</a></span><span class="student-link"><a href="/terms/characters#レイサ">レイサ</a></span>
-> </StudentListByFilter>
+:students="students">
+<span class="student-link"><a href="/terms/characters#百合园-圣娅">百合园圣娅</a></span><span class="student-link"><a href="/terms/characters#レイサ">レイサ</a></span>
+</StudentListByFilter>
 
 ### 茶会
 
@@ -571,12 +570,11 @@ property="圣三一"
 <StudentListByFilter
 filter-by="club"
 property="茶会"
-:students="students"
-
-> <span>
-> <a href="/terms/characters#百合园-圣娅">百合园圣娅</a>
-> </span>
-> </StudentListByFilter>
+:students="students">
+<span>
+<a href="/terms/characters#百合园-圣娅">百合园圣娅</a>
+</span>
+</StudentListByFilter>
 
 ### 正义实现委员会
 
@@ -651,12 +649,11 @@ property="茶会"
 > トリニティ自警団
 
 <StudentListByFilter
-filter-by="club"
-property="圣三一自卫队"
-:students="students"
-
-> <span class="student-link"><a href="/terms/characters#レイサ">レイサ</a></span>
-> </StudentListByFilter>
+  filter-by="club"
+  property="圣三一自卫队"
+  :students="students" >
+<span class="student-link"><a href="/terms/characters#レイサ">レイサ</a></span>
+</StudentListByFilter>
 
 ### 千层咖啡
 
@@ -697,12 +694,11 @@ property="圣三一自卫队"
 > お祭り運営委員会
 
 <StudentListByFilter
-filter-by="club"
-property="祭典运营委员会"
-:students="students"
-
-> <span class="student-link"><a href="/terms/characters#ウミカ">ウミカ</a></span>
-> </StudentListByFilter>
+  filter-by="club"
+  property="祭典运营委员会"
+  :students="students">
+<span class="student-link"><a href="/terms/characters#ウミカ">ウミカ</a></span>
+</StudentListByFilter>
 
 ### 忍术研究部
 
