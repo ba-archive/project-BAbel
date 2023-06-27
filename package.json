@@ -28,8 +28,8 @@
   "devDependencies": {
     "@algolia/client-search": "4.17.2",
     "@rushstack/eslint-patch": "1.3.2",
-    "@typescript-eslint/eslint-plugin": "5.59.11",
-    "@typescript-eslint/parser": "5.59.11",
+    "@typescript-eslint/eslint-plugin": "5.60.0",
+    "@typescript-eslint/parser": "5.60.0",
     "@vite-pwa/vitepress": "0.2.0",
     "@vue/eslint-config-typescript": "11.0.3",
     "element-plus": "2.3.6",
@@ -44,10 +44,10 @@
     "unplugin-auto-import": "0.16.4",
     "unplugin-icons": "0.16.3",
     "unplugin-vue-components": "0.25.1",
-    "vitepress": "1.0.0-beta.2",
+    "vitepress": "1.0.0-beta.3",
     "vitepress-plugin-search": "1.0.4-alpha.20",
     "vue": "3.3.4",
-    "vue-tsc": "1.8.0",
+    "vue-tsc": "1.8.1",
     "workbox-window": "7.0.0"
   },
   "dependencies": {
