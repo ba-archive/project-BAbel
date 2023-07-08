@@ -1963,7 +1963,7 @@ onMounted(() => {
   circle="知识解放战线"
 />
 
-### 姫木　メル
+### 姫木　爱瑠
 
 <CharacterTable
   family-name-jp="姫木"
