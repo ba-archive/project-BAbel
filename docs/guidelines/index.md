@@ -35,7 +35,7 @@ li::marker {
 
 ## 翻译规范
 
-[人名、地名翻译规范](translation/character-names-and-locations)
+### [人名、地名翻译规范](translation/character-names-and-locations)
 
 ### [游戏内专有名词翻译规范](translation/ingame-terms)
 
