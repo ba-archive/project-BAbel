@@ -74,7 +74,7 @@ export const navItems: NavItemWithMeta[] = [
         link: '/terms/chapters',
       },
       {
-        text: '总力战 boss、十字神明预言者等一览',
+        text: '总力战 boss、十字神名预言者等一览',
         link: '/terms/bosses',
       },
     ],
