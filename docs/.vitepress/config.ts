@@ -29,6 +29,9 @@ export default withPwa(
     },
 
     themeConfig: {
+      search: {
+        provider: 'local',
+      },
       nav: getMenuItems('navbar') as DefaultTheme.NavItem[],
       sidebar: getMenuItems('sidebar') as DefaultTheme.Sidebar,
       footer: {

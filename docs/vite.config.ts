@@ -20,13 +20,6 @@ export default defineConfig({
     },
   },
   plugins: [
-    SearchPlugin({
-      ...flexSearchIndexOptions,
-      previewLength: 48,
-      buttonLabel: '全局搜索',
-      placeholder: '搜索……',
-      tokenize: 'forward',
-    }),
     AutoImport({
       resolvers: [
         ElementPlusResolver(),
