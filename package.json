@@ -44,7 +44,7 @@
     "unplugin-auto-import": "0.16.6",
     "unplugin-icons": "0.16.5",
     "unplugin-vue-components": "0.25.1",
-    "vitepress": "1.0.0-rc.4",
+    "vitepress": "1.0.0-rc.7",
     "vitepress-plugin-search": "1.0.4-alpha.20",
     "vue": "3.3.4",
     "vue-tsc": "1.8.8",
@@ -53,7 +53,7 @@
   "dependencies": {
     "@types/node": "^20.3.1",
     "@vueuse/core": "10.4.0",
-    "axios": "1.4.0",
+    "axios": "1.5.0",
     "husky": "^8.0.3",
     "vite": "4.4.9",
     "vite-plugin-pwa": "0.16.4"
