@@ -80,11 +80,11 @@ devDependencies:
     specifier: 0.25.2
     version: 0.25.2(rollup@2.79.1)(vue@3.3.4)
   vitepress:
-    specifier: 1.0.0-rc.13
-    version: 1.0.0-rc.13(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.0)(sass@1.67.0)(search-insights@2.6.0)
+    specifier: 1.0.0-rc.14
+    version: 1.0.0-rc.14(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.0)(sass@1.67.0)(search-insights@2.6.0)
   vitepress-plugin-search:
     specifier: 1.0.4-alpha.20
-    version: 1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.13)(vue@3.3.4)
+    version: 1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.14)(vue@3.3.4)
   vue:
     specifier: 3.3.4
     version: 3.3.4
@@ -4605,7 +4605,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitepress-plugin-search@1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.13)(vue@3.3.4):
+  /vitepress-plugin-search@1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.14)(vue@3.3.4):
     resolution: {integrity: sha512-zG+ev9pw1Mg7htABlFCNXb8XwnKN+qfTKw+vU0Ers6RIrABx+45EAAFBoaL1mEpl1FRFn1o/dQ7F4b8GP6HdGQ==}
     engines: {node: ^14.13.1 || ^16.7.0 || >=18}
     peerDependencies:
@@ -4618,13 +4618,18 @@ packages:
       flexsearch: 0.7.31
       glob-to-regexp: 0.4.1
       markdown-it: 13.0.1
-      vitepress: 1.0.0-rc.13(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.0)(sass@1.67.0)(search-insights@2.6.0)
+      vitepress: 1.0.0-rc.14(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.0)(sass@1.67.0)(search-insights@2.6.0)
       vue: 3.3.4
     dev: true
 
-  /vitepress@1.0.0-rc.13(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.0)(sass@1.67.0)(search-insights@2.6.0):
-    resolution: {integrity: sha512-TnVydQOZE38rtXu9gHCb7EGdN03jTcmYkDdhCqox6+pfKYgiyfm1qk2Uy8BZatnM9wXpa64f+T5p30R8P/9Z+A==}
+  /vitepress@1.0.0-rc.14(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.0)(sass@1.67.0)(search-insights@2.6.0):
+    resolution: {integrity: sha512-yChIeXOAcNvVnSVjhziH1vte0uhKb00PuZf7KdIMfx3ixTMAz73Nn+6gREvCv0SdH+anteGUKz5eljv0ygcgGQ==}
     hasBin: true
+    peerDependencies:
+      markdown-it-mathjax3: ^4.3.2
+    peerDependenciesMeta:
+      markdown-it-mathjax3:
+        optional: true
     dependencies:
       '@docsearch/css': 3.5.2
       '@docsearch/js': 3.5.2(@algolia/client-search@4.20.0)(search-insights@2.6.0)
