@@ -38,8 +38,8 @@ devDependencies:
     specifier: 5.62.0
     version: 5.62.0(eslint@8.51.0)(typescript@5.2.2)
   '@vite-pwa/vitepress':
-    specifier: 0.2.1
-    version: 0.2.1(vite-plugin-pwa@0.16.5)
+    specifier: 0.2.3
+    version: 0.2.3(vite-plugin-pwa@0.16.5)
   '@vue/eslint-config-typescript':
     specifier: 12.0.0
     version: 12.0.0(eslint-plugin-vue@9.17.0)(eslint@8.51.0)(typescript@5.2.2)
@@ -80,11 +80,11 @@ devDependencies:
     specifier: 0.25.2
     version: 0.25.2(rollup@2.79.1)(vue@3.3.4)
   vitepress:
-    specifier: 1.0.0-rc.21
-    version: 1.0.0-rc.21(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.1)(sass@1.69.3)(search-insights@2.6.0)
+    specifier: 1.0.0-rc.22
+    version: 1.0.0-rc.22(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.1)(sass@1.69.3)(search-insights@2.6.0)
   vitepress-plugin-search:
     specifier: 1.0.4-alpha.20
-    version: 1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.21)(vue@3.3.4)
+    version: 1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.22)(vue@3.3.4)
   vue:
     specifier: 3.3.4
     version: 3.3.4
@@ -2172,8 +2172,8 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vite-pwa/vitepress@0.2.1(vite-plugin-pwa@0.16.5):
-    resolution: {integrity: sha512-57cEZSK86kWI8pTIHe5rochWOGaApPH6jrdjhQy0ufnkYHml7J4xUGV5rHQpJMSWbS4YppwHsKzzltvjNCbg0g==}
+  /@vite-pwa/vitepress@0.2.3(vite-plugin-pwa@0.16.5):
+    resolution: {integrity: sha512-6k9151CmILbSJQ88hLEMLL+MOQZDURKg2c4Wo5UcaEaOWU0jv7S+mo8nqyg86sM6ry8Jlnp6Zfv6AE0FqnfEyQ==}
     peerDependencies:
       vite-plugin-pwa: '>=0.16.5 <1'
     dependencies:
@@ -4605,7 +4605,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitepress-plugin-search@1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.21)(vue@3.3.4):
+  /vitepress-plugin-search@1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.22)(vue@3.3.4):
     resolution: {integrity: sha512-zG+ev9pw1Mg7htABlFCNXb8XwnKN+qfTKw+vU0Ers6RIrABx+45EAAFBoaL1mEpl1FRFn1o/dQ7F4b8GP6HdGQ==}
     engines: {node: ^14.13.1 || ^16.7.0 || >=18}
     peerDependencies:
@@ -4618,12 +4618,12 @@ packages:
       flexsearch: 0.7.31
       glob-to-regexp: 0.4.1
       markdown-it: 13.0.2
-      vitepress: 1.0.0-rc.21(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.1)(sass@1.69.3)(search-insights@2.6.0)
+      vitepress: 1.0.0-rc.22(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.1)(sass@1.69.3)(search-insights@2.6.0)
       vue: 3.3.4
     dev: true
 
-  /vitepress@1.0.0-rc.21(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.1)(sass@1.69.3)(search-insights@2.6.0):
-    resolution: {integrity: sha512-eHX057NgAqmrj6FIqh7Sqsbk/kftrFMBUpCKjuQIZ+c+bYTbmzXsXrHSbT5b4WWy4vLx1993a+H3wIRy2dHi8g==}
+  /vitepress@1.0.0-rc.22(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.5.1)(sass@1.69.3)(search-insights@2.6.0):
+    resolution: {integrity: sha512-n7le5iikCFgWMuX7sKfzDGJGlrsYQ5trG3S97BghNz2alOTr4Xp+GrB6ShwogUTX9gNgeNmrACjokhW55LNeBA==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4.3.2
