@@ -21,8 +21,8 @@ dependencies:
     specifier: 5.0.2
     version: 5.0.2(@types/node@20.3.1)(sass@1.69.5)
   vite-plugin-pwa:
-    specifier: 0.16.7
-    version: 0.16.7(vite@5.0.2)(workbox-build@7.0.0)(workbox-window@7.0.0)
+    specifier: 0.17.0
+    version: 0.17.0(vite@5.0.2)(workbox-build@7.0.0)(workbox-window@7.0.0)
 
 devDependencies:
   '@algolia/client-search':
@@ -38,8 +38,8 @@ devDependencies:
     specifier: 6.11.0
     version: 6.11.0(eslint@8.54.0)(typescript@5.2.2)
   '@vite-pwa/vitepress':
-    specifier: 0.2.3
-    version: 0.2.3(vite-plugin-pwa@0.16.7)
+    specifier: 0.3.0
+    version: 0.3.0(vite-plugin-pwa@0.17.0)
   '@vue/eslint-config-typescript':
     specifier: 12.0.0
     version: 12.0.0(eslint-plugin-vue@9.18.1)(eslint@8.54.0)(typescript@5.2.2)
@@ -80,11 +80,11 @@ devDependencies:
     specifier: 0.25.2
     version: 0.25.2(rollup@2.79.1)(vue@3.3.8)
   vitepress:
-    specifier: 1.0.0-rc.27
-    version: 1.0.0-rc.27(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.6.2)(sass@1.69.5)(search-insights@2.6.0)(typescript@5.2.2)
+    specifier: 1.0.0-rc.29
+    version: 1.0.0-rc.29(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.6.2)(sass@1.69.5)(search-insights@2.6.0)(typescript@5.2.2)
   vitepress-plugin-search:
     specifier: 1.0.4-alpha.20
-    version: 1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.27)(vue@3.3.8)
+    version: 1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.29)(vue@3.3.8)
   vue:
     specifier: 3.3.8
     version: 3.3.8(typescript@5.2.2)
@@ -2122,12 +2122,12 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vite-pwa/vitepress@0.2.3(vite-plugin-pwa@0.16.7):
-    resolution: {integrity: sha512-6k9151CmILbSJQ88hLEMLL+MOQZDURKg2c4Wo5UcaEaOWU0jv7S+mo8nqyg86sM6ry8Jlnp6Zfv6AE0FqnfEyQ==}
+  /@vite-pwa/vitepress@0.3.0(vite-plugin-pwa@0.17.0):
+    resolution: {integrity: sha512-7akiTt0laHJRSJ7lxPttGHYBoC2J+FgWJr0TGYQd2jPe/8nou+YSDwBGpOV+/qeobX2uzff8kew02n/07JRe9Q==}
     peerDependencies:
-      vite-plugin-pwa: '>=0.16.5 <1'
+      vite-plugin-pwa: '>=0.17.0 <1'
     dependencies:
-      vite-plugin-pwa: 0.16.7(vite@5.0.2)(workbox-build@7.0.0)(workbox-window@7.0.0)
+      vite-plugin-pwa: 0.17.0(vite@5.0.2)(workbox-build@7.0.0)(workbox-window@7.0.0)
     dev: true
 
   /@vitejs/plugin-vue@4.5.0(vite@5.0.2)(vue@3.3.8):
@@ -3056,6 +3056,17 @@ packages:
       glob-parent: 5.1.2
       merge2: 1.4.1
       micromatch: 4.0.5
+    dev: true
+
+  /fast-glob@3.3.2:
+    resolution: {integrity: sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==}
+    engines: {node: '>=8.6.0'}
+    dependencies:
+      '@nodelib/fs.stat': 2.0.5
+      '@nodelib/fs.walk': 1.2.8
+      glob-parent: 5.1.2
+      merge2: 1.4.1
+      micromatch: 4.0.5
 
   /fast-json-stable-stringify@2.1.0:
     resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==}
@@ -3740,6 +3751,11 @@ packages:
       pathe: 1.1.1
       pkg-types: 1.0.3
       ufo: 1.3.1
+    dev: true
+
+  /mrmime@1.0.1:
+    resolution: {integrity: sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw==}
+    engines: {node: '>=10'}
     dev: true
 
   /ms@2.1.2:
@@ -4516,16 +4532,16 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-pwa@0.16.7(vite@5.0.2)(workbox-build@7.0.0)(workbox-window@7.0.0):
-    resolution: {integrity: sha512-4WMA5unuKlHs+koNoykeuCfTcqEGbiTRr8sVYUQMhc6tWxZpSRnv9Ojk4LKmqVhoPGHfBVCdGaMo8t9Qidkc1Q==}
+  /vite-plugin-pwa@0.17.0(vite@5.0.2)(workbox-build@7.0.0)(workbox-window@7.0.0):
+    resolution: {integrity: sha512-cOyEG8EEc7JHmyMapTnjK2j0g2BIC3ErlmOHyGzVu8hqjyF9Jt6yWMmVNFtpA6v/NNyzP28ARf3vwzIAzR1kaw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
-      vite: ^3.1.0 || ^4.0.0 || ^5.0.0-0
+      vite: ^3.1.0 || ^4.0.0 || ^5.0.0
       workbox-build: ^7.0.0
       workbox-window: ^7.0.0
     dependencies:
       debug: 4.3.4
-      fast-glob: 3.3.1
+      fast-glob: 3.3.2
       pretty-bytes: 6.1.1
       vite: 5.0.2(@types/node@20.3.1)(sass@1.69.5)
       workbox-build: 7.0.0
@@ -4569,7 +4585,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitepress-plugin-search@1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.27)(vue@3.3.8):
+  /vitepress-plugin-search@1.0.4-alpha.20(flexsearch@0.7.31)(vitepress@1.0.0-rc.29)(vue@3.3.8):
     resolution: {integrity: sha512-zG+ev9pw1Mg7htABlFCNXb8XwnKN+qfTKw+vU0Ers6RIrABx+45EAAFBoaL1mEpl1FRFn1o/dQ7F4b8GP6HdGQ==}
     engines: {node: ^14.13.1 || ^16.7.0 || >=18}
     peerDependencies:
@@ -4582,12 +4598,12 @@ packages:
       flexsearch: 0.7.31
       glob-to-regexp: 0.4.1
       markdown-it: 13.0.2
-      vitepress: 1.0.0-rc.27(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.6.2)(sass@1.69.5)(search-insights@2.6.0)(typescript@5.2.2)
+      vitepress: 1.0.0-rc.29(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.6.2)(sass@1.69.5)(search-insights@2.6.0)(typescript@5.2.2)
       vue: 3.3.8(typescript@5.2.2)
     dev: true
 
-  /vitepress@1.0.0-rc.27(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.6.2)(sass@1.69.5)(search-insights@2.6.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-1qs1a5qPQxNOJN451HmNtKewxSIOk52qv1EdWtsO6V6kvrNxF2FFR3Inhj0W56Jcs8AKIdzKDKHNYIJhcyz3AA==}
+  /vitepress@1.0.0-rc.29(@algolia/client-search@4.20.0)(@types/node@20.3.1)(axios@1.6.2)(sass@1.69.5)(search-insights@2.6.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-6sKmyEvH16SgMqkHzRwwadt9Uju13AOIqouzOVEg3Rk6X9mds6jLsq2GxnAJvg0s6bl/0Qs/cw+f8SNki82ltw==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4.3.2
@@ -4608,6 +4624,7 @@ packages:
       focus-trap: 7.5.4
       mark.js: 8.11.1
       minisearch: 6.3.0
+      mrmime: 1.0.1
       shiki: 0.14.5
       vite: 5.0.2(@types/node@20.3.1)(sass@1.69.5)
       vue: 3.3.8(typescript@5.2.2)
