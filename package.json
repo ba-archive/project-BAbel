@@ -29,8 +29,8 @@
   "devDependencies": {
     "@algolia/client-search": "4.20.0",
     "@rushstack/eslint-patch": "1.6.0",
-    "@typescript-eslint/eslint-plugin": "6.13.1",
-    "@typescript-eslint/parser": "6.13.1",
+    "@typescript-eslint/eslint-plugin": "6.13.2",
+    "@typescript-eslint/parser": "6.13.2",
     "@vite-pwa/vitepress": "0.3.1",
     "@vue/eslint-config-typescript": "12.0.0",
     "element-plus": "2.4.3",
@@ -41,22 +41,22 @@
     "markdown-it": "13.0.2",
     "prettier": "3.1.0",
     "sass": "1.69.5",
-    "typescript": "5.3.2",
-    "unplugin-auto-import": "0.17.1",
-    "unplugin-icons": "0.18.0",
-    "unplugin-vue-components": "0.25.2",
+    "typescript": "5.3.3",
+    "unplugin-auto-import": "0.17.2",
+    "unplugin-icons": "0.18.1",
+    "unplugin-vue-components": "0.26.0",
     "vitepress": "1.0.0-rc.31",
-    "vitepress-plugin-search": "1.0.4-alpha.20",
-    "vue": "3.3.9",
-    "vue-tsc": "1.8.24",
+    "vitepress-plugin-search": "1.0.4-alpha.21",
+    "vue": "3.3.11",
+    "vue-tsc": "1.8.25",
     "workbox-window": "7.0.0"
   },
   "dependencies": {
     "@types/node": "^20.3.1",
-    "@vueuse/core": "10.6.1",
+    "@vueuse/core": "10.7.0",
     "axios": "1.6.2",
     "husky": "^8.0.3",
-    "vite": "5.0.5",
-    "vite-plugin-pwa": "0.17.2"
+    "vite": "5.0.7",
+    "vite-plugin-pwa": "0.17.4"
   }
 }
