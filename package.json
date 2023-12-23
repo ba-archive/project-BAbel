@@ -27,14 +27,14 @@
   "author": "碧蓝档案资讯站",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@algolia/client-search": "4.20.0",
-    "@rushstack/eslint-patch": "1.6.0",
-    "@typescript-eslint/eslint-plugin": "6.13.2",
-    "@typescript-eslint/parser": "6.13.2",
+    "@algolia/client-search": "4.22.0",
+    "@rushstack/eslint-patch": "1.6.1",
+    "@typescript-eslint/eslint-plugin": "6.14.0",
+    "@typescript-eslint/parser": "6.14.0",
     "@vite-pwa/vitepress": "0.3.1",
     "@vue/eslint-config-typescript": "12.0.0",
-    "element-plus": "2.4.3",
-    "eslint": "8.55.0",
+    "element-plus": "2.4.4",
+    "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-vue": "9.19.2",
     "flexsearch": "0.7.31",
@@ -45,9 +45,9 @@
     "unplugin-auto-import": "0.17.2",
     "unplugin-icons": "0.18.1",
     "unplugin-vue-components": "0.26.0",
-    "vitepress": "1.0.0-rc.31",
+    "vitepress": "1.0.0-rc.32",
     "vitepress-plugin-search": "1.0.4-alpha.21",
-    "vue": "3.3.11",
+    "vue": "3.3.12",
     "vue-tsc": "1.8.25",
     "workbox-window": "7.0.0"
   },
@@ -56,7 +56,7 @@
     "@vueuse/core": "10.7.0",
     "axios": "1.6.2",
     "husky": "^8.0.3",
-    "vite": "5.0.7",
+    "vite": "5.0.10",
     "vite-plugin-pwa": "0.17.4"
   }
 }
