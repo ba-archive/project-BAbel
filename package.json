@@ -33,7 +33,7 @@
     "@typescript-eslint/parser": "6.21.0",
     "@vite-pwa/vitepress": "0.4.0",
     "@vue/eslint-config-typescript": "12.0.0",
-    "element-plus": "2.6.0",
+    "element-plus": "2.6.1",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-vue": "9.22.0",
@@ -41,11 +41,11 @@
     "markdown-it": "13.0.2",
     "prettier": "3.2.5",
     "sass": "1.71.1",
-    "typescript": "5.3.3",
+    "typescript": "5.4.2",
     "unplugin-auto-import": "0.17.5",
     "unplugin-icons": "0.18.5",
     "unplugin-vue-components": "0.26.0",
-    "vitepress": "1.0.0-rc.44",
+    "vitepress": "1.0.0-rc.45",
     "vitepress-plugin-search": "1.0.4-alpha.22",
     "vue": "3.4.21",
     "vue-tsc": "1.8.27",
@@ -56,7 +56,7 @@
     "@vueuse/core": "10.9.0",
     "axios": "1.6.7",
     "husky": "^8.0.3",
-    "vite": "5.1.4",
+    "vite": "5.1.5",
     "vite-plugin-pwa": "0.19.2"
   }
 }
