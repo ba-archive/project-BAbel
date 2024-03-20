@@ -48,7 +48,7 @@
     "vitepress": "1.0.0-rc.45",
     "vitepress-plugin-search": "1.0.4-alpha.22",
     "vue": "3.4.21",
-    "vue-tsc": "1.8.27",
+    "vue-tsc": "2.0.7",
     "workbox-window": "7.0.0"
   },
   "dependencies": {
