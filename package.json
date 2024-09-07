@@ -54,9 +54,9 @@
   "dependencies": {
     "@types/node": "^20.3.1",
     "@vueuse/core": "10.11.1",
-    "axios": "1.7.5",
+    "axios": "1.7.6",
     "husky": "^8.0.3",
     "vite": "5.4.2",
-    "vite-plugin-pwa": "0.20.1"
+    "vite-plugin-pwa": "0.20.2"
   }
 }
