@@ -27,7 +27,7 @@
   "author": "碧蓝档案资讯站",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@algolia/client-search": "4.24.0",
+    "@algolia/client-search": "5.9.1",
     "@rushstack/eslint-patch": "1.10.4",
     "@typescript-eslint/eslint-plugin": "6.21.0",
     "@typescript-eslint/parser": "6.21.0",
