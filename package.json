@@ -42,7 +42,7 @@
     "prettier": "3.6.2",
     "sass": "1.89.2",
     "typescript": "5.8.3",
-    "unplugin-auto-import": "0.19.0",
+    "unplugin-auto-import": "19.3.0",
     "unplugin-icons": "0.22.0",
     "unplugin-vue-components": "0.28.0",
     "vitepress": "1.6.3",
