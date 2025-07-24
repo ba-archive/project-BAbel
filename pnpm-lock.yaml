@@ -15,8 +15,8 @@ importers:
         specifier: 10.11.1
         version: 10.11.1(vue@3.5.17(typescript@5.8.3))
       axios:
-        specifier: 1.10.0
-        version: 1.10.0
+        specifier: 1.11.0
+        version: 1.11.0
       husky:
         specifier: ^8.0.3
         version: 8.0.3
@@ -83,10 +83,10 @@ importers:
         version: 0.28.0(@babel/parser@7.28.0)(rollup@2.79.2)(vue@3.5.17(typescript@5.8.3))
       vitepress:
         specifier: 1.6.3
-        version: 1.6.3(@algolia/client-search@4.25.2)(@types/node@20.19.2)(async-validator@4.2.5)(axios@1.10.0)(postcss@8.5.6)(sass@1.89.2)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3)
+        version: 1.6.3(@algolia/client-search@4.25.2)(@types/node@20.19.2)(async-validator@4.2.5)(axios@1.11.0)(postcss@8.5.6)(sass@1.89.2)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3)
       vitepress-plugin-search:
         specifier: 1.0.4-alpha.22
-        version: 1.0.4-alpha.22(flexsearch@0.8.205)(vitepress@1.6.3(@algolia/client-search@4.25.2)(@types/node@20.19.2)(async-validator@4.2.5)(axios@1.10.0)(postcss@8.5.6)(sass@1.89.2)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3))(vue@3.5.17(typescript@5.8.3))
+        version: 1.0.4-alpha.22(flexsearch@0.8.205)(vitepress@1.6.3(@algolia/client-search@4.25.2)(@types/node@20.19.2)(async-validator@4.2.5)(axios@1.11.0)(postcss@8.5.6)(sass@1.89.2)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3))(vue@3.5.17(typescript@5.8.3))
       vue:
         specifier: 3.5.17
         version: 3.5.17(typescript@5.8.3)
@@ -1579,8 +1579,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  axios@1.10.0:
-    resolution: {integrity: sha512-/1xYAC4MP/HEG+3duIhFr4ZQXR4sQXOIe+o6sdqzeykGLx6Upp/1p8MHqhINOvGeP7xyNHe7tsiJByc4SSVUxw==}
+  axios@1.11.0:
+    resolution: {integrity: sha512-1Lx3WLFQWm3ooKDYZD1eXmoGO9fxYQjrycfHFC8P0sCfQVXyROp0p9PFWBehewBOdCwHc+f/b8I0fMto5eSfwA==}
 
   babel-plugin-polyfill-corejs2@0.4.14:
     resolution: {integrity: sha512-Co2Y9wX854ts6U8gAAPXfn0GmAyctHuK8n0Yhfjd6t30g7yvKjspvvOo9yG+z52PZRgFErt7Ka2pYnXCjLKEpg==}
@@ -2019,8 +2019,8 @@ packages:
     resolution: {integrity: sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==}
     engines: {node: '>= 0.4'}
 
-  form-data@4.0.0:
-    resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
+  form-data@4.0.4:
+    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
     engines: {node: '>= 6'}
 
   fs-extra@9.1.0:
@@ -4921,14 +4921,14 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/integrations@12.5.0(async-validator@4.2.5)(axios@1.10.0)(focus-trap@7.6.4)(typescript@5.8.3)':
+  '@vueuse/integrations@12.5.0(async-validator@4.2.5)(axios@1.11.0)(focus-trap@7.6.4)(typescript@5.8.3)':
     dependencies:
       '@vueuse/core': 12.5.0(typescript@5.8.3)
       '@vueuse/shared': 12.5.0(typescript@5.8.3)
       vue: 3.5.17(typescript@5.8.3)
     optionalDependencies:
       async-validator: 4.2.5
-      axios: 1.10.0
+      axios: 1.11.0
       focus-trap: 7.6.4
     transitivePeerDependencies:
       - typescript
@@ -5043,10 +5043,10 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  axios@1.10.0:
+  axios@1.11.0:
     dependencies:
       follow-redirects: 1.15.6
-      form-data: 4.0.0
+      form-data: 4.0.4
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -5581,10 +5581,12 @@ snapshots:
     dependencies:
       is-callable: 1.2.7
 
-  form-data@4.0.0:
+  form-data@4.0.4:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
+      es-set-tostringtag: 2.1.0
+      hasown: 2.0.2
       mime-types: 2.1.35
 
   fs-extra@9.1.0:
@@ -6823,17 +6825,17 @@ snapshots:
       sass: 1.89.2
       terser: 5.43.1
 
-  vitepress-plugin-search@1.0.4-alpha.22(flexsearch@0.8.205)(vitepress@1.6.3(@algolia/client-search@4.25.2)(@types/node@20.19.2)(async-validator@4.2.5)(axios@1.10.0)(postcss@8.5.6)(sass@1.89.2)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3))(vue@3.5.17(typescript@5.8.3)):
+  vitepress-plugin-search@1.0.4-alpha.22(flexsearch@0.8.205)(vitepress@1.6.3(@algolia/client-search@4.25.2)(@types/node@20.19.2)(async-validator@4.2.5)(axios@1.11.0)(postcss@8.5.6)(sass@1.89.2)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3))(vue@3.5.17(typescript@5.8.3)):
     dependencies:
       '@types/flexsearch': 0.7.3
       '@types/markdown-it': 12.2.3
       flexsearch: 0.8.205
       glob-to-regexp: 0.4.1
       markdown-it: 13.0.2
-      vitepress: 1.6.3(@algolia/client-search@4.25.2)(@types/node@20.19.2)(async-validator@4.2.5)(axios@1.10.0)(postcss@8.5.6)(sass@1.89.2)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3)
+      vitepress: 1.6.3(@algolia/client-search@4.25.2)(@types/node@20.19.2)(async-validator@4.2.5)(axios@1.11.0)(postcss@8.5.6)(sass@1.89.2)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3)
       vue: 3.5.17(typescript@5.8.3)
 
-  vitepress@1.6.3(@algolia/client-search@4.25.2)(@types/node@20.19.2)(async-validator@4.2.5)(axios@1.10.0)(postcss@8.5.6)(sass@1.89.2)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3):
+  vitepress@1.6.3(@algolia/client-search@4.25.2)(@types/node@20.19.2)(async-validator@4.2.5)(axios@1.11.0)(postcss@8.5.6)(sass@1.89.2)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3):
     dependencies:
       '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@4.25.2)(search-insights@2.13.0)
@@ -6846,7 +6848,7 @@ snapshots:
       '@vue/devtools-api': 7.7.1
       '@vue/shared': 3.5.13
       '@vueuse/core': 12.5.0(typescript@5.8.3)
-      '@vueuse/integrations': 12.5.0(async-validator@4.2.5)(axios@1.10.0)(focus-trap@7.6.4)(typescript@5.8.3)
+      '@vueuse/integrations': 12.5.0(async-validator@4.2.5)(axios@1.11.0)(focus-trap@7.6.4)(typescript@5.8.3)
       focus-trap: 7.6.4
       mark.js: 8.11.1
       minisearch: 7.1.1
