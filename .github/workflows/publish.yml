@@ -20,7 +20,7 @@ jobs:
       - name: Checkout # 定义 step 的名字，方便作日志排查
         uses: actions/checkout@v4 # uses 表示该步骤使用一个 action 。斜线前面的 'actions' 表示这是官方的action
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '18'
       - name: Setup pnpm
