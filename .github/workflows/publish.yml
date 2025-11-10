@@ -18,7 +18,7 @@ jobs:
     # 定义 job 的具体步骤
     steps: # 每一个 step 或者是执行一个 action，或者是执行一个命令
       - name: Checkout # 定义 step 的名字，方便作日志排查
-        uses: actions/checkout@v4 # uses 表示该步骤使用一个 action 。斜线前面的 'actions' 表示这是官方的action
+        uses: actions/checkout@v5 # uses 表示该步骤使用一个 action 。斜线前面的 'actions' 表示这是官方的action
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
