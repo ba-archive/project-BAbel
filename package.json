@@ -31,7 +31,7 @@
     "@rushstack/eslint-patch": "1.15.0",
     "@typescript-eslint/eslint-plugin": "6.21.0",
     "@typescript-eslint/parser": "6.21.0",
-    "@vite-pwa/vitepress": "0.5.4",
+    "@vite-pwa/vitepress": "1.1.0",
     "@vue/eslint-config-typescript": "12.0.0",
     "element-plus": "2.11.8",
     "eslint": "8.57.1",
