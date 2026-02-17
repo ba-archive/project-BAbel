@@ -36,7 +36,7 @@
     "element-plus": "2.11.8",
     "eslint": "8.57.1",
     "eslint-config-prettier": "9.1.2",
-    "eslint-plugin-vue": "9.33.0",
+    "eslint-plugin-vue": "10.8.0",
     "flexsearch": "0.8.212",
     "markdown-it": "14.1.1",
     "prettier": "3.6.2",
