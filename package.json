@@ -29,8 +29,8 @@
   "devDependencies": {
     "@algolia/client-search": "4.25.3",
     "@rushstack/eslint-patch": "1.15.0",
-    "@typescript-eslint/eslint-plugin": "6.21.0",
-    "@typescript-eslint/parser": "6.21.0",
+    "@typescript-eslint/eslint-plugin": "8.56.1",
+    "@typescript-eslint/parser": "8.56.1",
     "@vite-pwa/vitepress": "0.5.4",
     "@vue/eslint-config-typescript": "12.0.0",
     "element-plus": "2.11.8",
