@@ -34,7 +34,7 @@
     "@vite-pwa/vitepress": "0.5.4",
     "@vue/eslint-config-typescript": "12.0.0",
     "element-plus": "2.11.8",
-    "eslint": "8.57.1",
+    "eslint": "10.0.2",
     "eslint-config-prettier": "9.1.2",
     "eslint-plugin-vue": "9.33.0",
     "flexsearch": "0.8.212",
